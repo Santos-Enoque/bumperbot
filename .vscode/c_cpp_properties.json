@@ -8,16 +8,14 @@
       "includePath": [
         "/opt/ros/jazzy/include/**",
         "/home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
-        "/home/dummy/development/bumperbot_ws/install/*/include/**",
-        "/home/dummy/development/bumperbot_ws/build/*/",
+        "/home/dummy/development/bumperbot_ws/src/bumperbot_planning/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "gnu11",
-      "cppStandard": "c++17",
-      "compileCommands": "${workspaceFolder}/build/bumperbot_cpp_examples/compile_commands.json"
+      "cppStandard": "c++14"
     }
   ],
   "version": 4

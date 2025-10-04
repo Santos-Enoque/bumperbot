@@ -1,0 +1,42 @@
+[0.006s] Invoking command in '/home/dummy/development/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dummy/development/bumperbot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/dummy/development/bumperbot_ws/install/bumperbot_planning
+[0.052s] -- The C compiler identification is GNU 13.3.0
+[0.122s] -- The CXX compiler identification is GNU 13.3.0
+[0.136s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /home/dummy/anaconda3/bin/python3 (found version "3.12.7") found components: Interpreter 
+[0.496s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.575s] -- Added test 'lint_cmake' to check CMake code style
+[0.576s] -- Added test 'xmllint' to check XML markup files
+[0.578s] -- Configuring done (0.6s)
+[0.579s] -- Generating done (0.0s)
+[0.580s] -- Build files have been written to: /home/dummy/development/bumperbot_ws/build/bumperbot_planning
+[0.583s] Invoked command in '/home/dummy/development/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dummy/development/bumperbot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/dummy/development/bumperbot_ws/install/bumperbot_planning
+[0.584s] Invoking command in '/home/dummy/development/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dummy/development/bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.608s] Invoked command in '/home/dummy/development/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dummy/development/bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.609s] Invoking command in '/home/dummy/development/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dummy/development/bumperbot_ws/build/bumperbot_planning
+[0.615s] -- Install configuration: ""
+[0.615s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[0.616s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[0.617s] -- Installing: /home/dummy/development/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[0.618s] Invoked command in '/home/dummy/development/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dummy/development/bumperbot_ws/build/bumperbot_planning
