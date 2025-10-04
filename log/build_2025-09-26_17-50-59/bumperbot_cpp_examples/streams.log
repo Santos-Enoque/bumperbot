@@ -1,7 +1,0 @@
-[0.006s] Invoking command in '/home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dummy/development/ros2_ws/install:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/dummy/development/bumperbot_ws/install/bumperbot_cpp_examples
-[0.011s] [31mCMake Error at CMakeLists.txt:32:
-[0.011s]   Parse error.  Function missing ending ")".  End of file reached.
-[0.011s] 
-[0.011s] [0m
-[0.011s] -- Configuring incomplete, errors occurred!
-[0.013s] Invoked command in '/home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dummy/development/ros2_ws/install:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/dummy/development/bumperbot_ws/install/bumperbot_cpp_examples

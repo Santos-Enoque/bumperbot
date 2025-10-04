@@ -1,0 +1,2 @@
+Invoking command in '/bumperbot/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_utils
+Invoked command in '/bumperbot/build/bumperbot_utils' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_utils

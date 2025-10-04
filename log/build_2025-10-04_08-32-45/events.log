@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000867] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.001048] (bumperbot_planning) JobQueued: {'identifier': 'bumperbot_planning', 'dependencies': OrderedDict()}
+[0.001153] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.010329] (bumperbot_planning) JobStarted: {'identifier': 'bumperbot_planning'}
+[0.014531] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.015358] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/bumperbot/src/bumperbot_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_cpp_examples'], 'cwd': '/bumperbot/build/bumperbot_cpp_examples', 'env': OrderedDict({'HOSTNAME': 'alienware-00', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/bumperbot/build/bumperbot_cpp_examples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.020031] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'cmake'}
+[0.020999] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '/bumperbot/src/bumperbot_planning', '-DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_planning'], 'cwd': '/bumperbot/build/bumperbot_planning', 'env': OrderedDict({'HOSTNAME': 'alienware-00', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/bumperbot/build/bumperbot_planning', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.099692] (-) TimerEvent: {}
+[0.199957] (-) TimerEvent: {}
+[0.218687] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.219018] (bumperbot_planning) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300117] (-) TimerEvent: {}
+[0.360892] (bumperbot_planning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.362344] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.385414] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.385761] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400209] (-) TimerEvent: {}
+[0.500494] (-) TimerEvent: {}
+[0.503115] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.503310] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.515177] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.515484] (bumperbot_planning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.516517] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.516819] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.517412] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.517596] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.529083] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.530783] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600612] (-) TimerEvent: {}
+[0.640063] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.641205] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.651047] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.651480] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.652129] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.657206] (bumperbot_planning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.657582] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.658277] (bumperbot_planning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.663054] (bumperbot_planning) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.663390] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700728] (-) TimerEvent: {}
+[0.800969] (-) TimerEvent: {}
+[0.836033] (bumperbot_planning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.843830] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901066] (-) TimerEvent: {}
+[0.987953] (bumperbot_planning) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.991023] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.001167] (-) TimerEvent: {}
+[1.046612] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.046893] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.065084] (bumperbot_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.065472] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.089822] (bumperbot_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.090063] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101279] (-) TimerEvent: {}
+[1.116778] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.117216] (bumperbot_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201392] (-) TimerEvent: {}
+[1.230595] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.230809] (bumperbot_planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.234557] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)\n'}
+[1.234753] (bumperbot_planning) StdoutLine: {'line': b'-- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)\n'}
+[1.235824] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_zenoh_cpp' as default\n"}
+[1.236455] (bumperbot_planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_zenoh_cpp' as default\n"}
+[1.301516] (-) TimerEvent: {}
+[1.339335] (bumperbot_planning) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.343045] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.366885] (bumperbot_planning) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.370065] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[1.401640] (-) TimerEvent: {}
+[1.442369] (bumperbot_planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.501730] (-) TimerEvent: {}
+[1.535751] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.563789] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.574200] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /bumperbot/build/bumperbot_cpp_examples\n'}
+[1.581774] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[1.582295] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'build'}
+[1.583240] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/bumperbot/build/bumperbot_cpp_examples', '--', '-j8', '-l8'], 'cwd': '/bumperbot/build/bumperbot_cpp_examples', 'env': OrderedDict({'HOSTNAME': 'alienware-00', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/bumperbot/build/bumperbot_cpp_examples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[1.601870] (-) TimerEvent: {}
+[1.644093] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[1.647645] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[1.649727] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o\x1b[0m\n'}
+[1.653927] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/simple_qos_subscriber.dir/src/simple_qos_subscriber.cpp.o\x1b[0m\n'}
+[1.658424] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_qos_publisher.dir/src/simple_qos_publisher.cpp.o\x1b[0m\n'}
+[1.701968] (-) TimerEvent: {}
+[1.803624] (-) TimerEvent: {}
+[1.838071] (bumperbot_planning) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.883518] (bumperbot_planning) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.894754] (bumperbot_planning) StdoutLine: {'line': b'-- Build files have been written to: /bumperbot/build/bumperbot_planning\n'}
+[1.903686] (-) TimerEvent: {}
+[1.906659] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[1.907307] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'build'}
+[1.907784] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/bumperbot/build/bumperbot_planning', '--', '-j8', '-l8'], 'cwd': '/bumperbot/build/bumperbot_planning', 'env': OrderedDict({'HOSTNAME': 'alienware-00', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/bumperbot/build/bumperbot_planning', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[1.982454] (bumperbot_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o\x1b[0m\n'}
+[2.003783] (-) TimerEvent: {}
+[2.104073] (-) TimerEvent: {}
+[2.205112] (-) TimerEvent: {}
+[2.305393] (-) TimerEvent: {}
+[2.405710] (-) TimerEvent: {}
+[2.506013] (-) TimerEvent: {}
+[2.607870] (-) TimerEvent: {}
+[2.710090] (-) TimerEvent: {}
+[2.810625] (-) TimerEvent: {}
+[2.911674] (-) TimerEvent: {}
+[3.012348] (-) TimerEvent: {}
+[3.113353] (-) TimerEvent: {}
+[3.213665] (-) TimerEvent: {}
+[3.313999] (-) TimerEvent: {}
+[3.414340] (-) TimerEvent: {}
+[3.515042] (-) TimerEvent: {}
+[3.615355] (-) TimerEvent: {}
+[3.716295] (-) TimerEvent: {}
+[3.816625] (-) TimerEvent: {}
+[3.917481] (-) TimerEvent: {}
+[4.017827] (-) TimerEvent: {}
+[4.118145] (-) TimerEvent: {}
+[4.218467] (-) TimerEvent: {}
+[4.319355] (-) TimerEvent: {}
+[4.420253] (-) TimerEvent: {}
+[4.520901] (-) TimerEvent: {}
+[4.621594] (-) TimerEvent: {}
+[4.721910] (-) TimerEvent: {}
+[4.822226] (-) TimerEvent: {}
+[4.922638] (-) TimerEvent: {}
+[5.022981] (-) TimerEvent: {}
+[5.123289] (-) TimerEvent: {}
+[5.224697] (-) TimerEvent: {}
+[5.325041] (-) TimerEvent: {}
+[5.425358] (-) TimerEvent: {}
+[5.525677] (-) TimerEvent: {}
+[5.625992] (-) TimerEvent: {}
+[5.726325] (-) TimerEvent: {}
+[5.826629] (-) TimerEvent: {}
+[5.926948] (-) TimerEvent: {}
+[6.027245] (-) TimerEvent: {}
+[6.127562] (-) TimerEvent: {}
+[6.227873] (-) TimerEvent: {}
+[6.328188] (-) TimerEvent: {}
+[6.428870] (-) TimerEvent: {}
+[6.529770] (-) TimerEvent: {}
+[6.630623] (-) TimerEvent: {}
+[6.731535] (-) TimerEvent: {}
+[6.831859] (-) TimerEvent: {}
+[6.932170] (-) TimerEvent: {}
+[7.032486] (-) TimerEvent: {}
+[7.133483] (-) TimerEvent: {}
+[7.233794] (-) TimerEvent: {}
+[7.334100] (-) TimerEvent: {}
+[7.434406] (-) TimerEvent: {}
+[7.534720] (-) TimerEvent: {}
+[7.635039] (-) TimerEvent: {}
+[7.735362] (-) TimerEvent: {}
+[7.835681] (-) TimerEvent: {}
+[7.935954] (-) TimerEvent: {}
+[8.006844] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable simple_qos_publisher\x1b[0m\n'}
+[8.036069] (-) TimerEvent: {}
+[8.136400] (-) TimerEvent: {}
+[8.237443] (-) TimerEvent: {}
+[8.337853] (-) TimerEvent: {}
+[8.438535] (-) TimerEvent: {}
+[8.439115] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 60%] Built target simple_qos_publisher\n'}
+[8.538638] (-) TimerEvent: {}
+[8.638925] (-) TimerEvent: {}
+[8.742640] (-) TimerEvent: {}
+[8.844380] (-) TimerEvent: {}
+[8.944690] (-) TimerEvent: {}
+[9.045016] (-) TimerEvent: {}
+[9.145342] (-) TimerEvent: {}
+[9.150303] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[9.245458] (-) TimerEvent: {}
+[9.345785] (-) TimerEvent: {}
+[9.415804] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 70%] Built target simple_publisher\n'}
+[9.445884] (-) TimerEvent: {}
+[9.546199] (-) TimerEvent: {}
+[9.646707] (-) TimerEvent: {}
+[9.747007] (-) TimerEvent: {}
+[9.847833] (-) TimerEvent: {}
+[9.948165] (-) TimerEvent: {}
+[10.048480] (-) TimerEvent: {}
+[10.148785] (-) TimerEvent: {}
+[10.249084] (-) TimerEvent: {}
+[10.349388] (-) TimerEvent: {}
+[10.449748] (-) TimerEvent: {}
+[10.550036] (-) TimerEvent: {}
+[10.650321] (-) TimerEvent: {}
+[10.750642] (-) TimerEvent: {}
+[10.850931] (-) TimerEvent: {}
+[10.951227] (-) TimerEvent: {}
+[11.051533] (-) TimerEvent: {}
+[11.151821] (-) TimerEvent: {}
+[11.252128] (-) TimerEvent: {}
+[11.352399] (-) TimerEvent: {}
+[11.452693] (-) TimerEvent: {}
+[11.552981] (-) TimerEvent: {}
+[11.653278] (-) TimerEvent: {}
+[11.753605] (-) TimerEvent: {}
+[11.841096] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable simple_lifecycle_node\x1b[0m\n'}
+[11.853731] (-) TimerEvent: {}
+[11.954018] (-) TimerEvent: {}
+[12.054359] (-) TimerEvent: {}
+[12.154643] (-) TimerEvent: {}
+[12.254958] (-) TimerEvent: {}
+[12.328345] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 80%] Built target simple_lifecycle_node\n'}
+[12.355061] (-) TimerEvent: {}
+[12.455322] (-) TimerEvent: {}
+[12.555607] (-) TimerEvent: {}
+[12.655901] (-) TimerEvent: {}
+[12.756189] (-) TimerEvent: {}
+[12.856439] (-) TimerEvent: {}
+[12.956670] (-) TimerEvent: {}
+[13.050944] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable simple_qos_subscriber\x1b[0m\n'}
+[13.056782] (-) TimerEvent: {}
+[13.157104] (-) TimerEvent: {}
+[13.257414] (-) TimerEvent: {}
+[13.287026] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[13.357528] (-) TimerEvent: {}
+[13.416460] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_qos_subscriber\n'}
+[13.457635] (-) TimerEvent: {}
+[13.557944] (-) TimerEvent: {}
+[13.620580] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[13.632234] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[13.634321] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'install'}
+[13.642828] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/bumperbot/build/bumperbot_cpp_examples'], 'cwd': '/bumperbot/build/bumperbot_cpp_examples', 'env': OrderedDict({'HOSTNAME': 'alienware-00', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/bumperbot/build/bumperbot_cpp_examples', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[13.651295] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.651916] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher\n'}
+[13.653776] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""\n'}
+[13.654112] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber\n'}
+[13.658042] (-) TimerEvent: {}
+[13.659352] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""\n'}
+[13.659620] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node\n'}
+[13.664176] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""\n'}
+[13.664548] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher\n'}
+[13.665997] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher" to ""\n'}
+[13.666255] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber\n'}
+[13.671274] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber" to ""\n'}
+[13.671614] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples\n'}
+[13.671990] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples\n'}
+[13.672545] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[13.672747] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[13.672960] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh\n'}
+[13.673165] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv\n'}
+[13.673423] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash\n'}
+[13.673994] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh\n'}
+[13.674317] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh\n'}
+[13.674525] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv\n'}
+[13.674740] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv\n'}
+[13.674953] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples\n'}
+[13.675119] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake\n'}
+[13.675301] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake\n'}
+[13.675509] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml\n'}
+[13.677267] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[13.704557] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 0}
+[13.758165] (-) TimerEvent: {}
+[13.858426] (-) TimerEvent: {}
+[13.958711] (-) TimerEvent: {}
+[14.058959] (-) TimerEvent: {}
+[14.159228] (-) TimerEvent: {}
+[14.259486] (-) TimerEvent: {}
+[14.359720] (-) TimerEvent: {}
+[14.459982] (-) TimerEvent: {}
+[14.560243] (-) TimerEvent: {}
+[14.660503] (-) TimerEvent: {}
+[14.760767] (-) TimerEvent: {}
+[14.861051] (-) TimerEvent: {}
+[14.961319] (-) TimerEvent: {}
+[15.061590] (-) TimerEvent: {}
+[15.161870] (-) TimerEvent: {}
+[15.262134] (-) TimerEvent: {}
+[15.362409] (-) TimerEvent: {}
+[15.462661] (-) TimerEvent: {}
+[15.563011] (-) TimerEvent: {}
+[15.663274] (-) TimerEvent: {}
+[15.763532] (-) TimerEvent: {}
+[15.863786] (-) TimerEvent: {}
+[15.964031] (-) TimerEvent: {}
+[16.064377] (-) TimerEvent: {}
+[16.164623] (-) TimerEvent: {}
+[16.264889] (-) TimerEvent: {}
+[16.365149] (-) TimerEvent: {}
+[16.465484] (-) TimerEvent: {}
+[16.565759] (-) TimerEvent: {}
+[16.666005] (-) TimerEvent: {}
+[16.766321] (-) TimerEvent: {}
+[16.866680] (-) TimerEvent: {}
+[16.966932] (-) TimerEvent: {}
+[17.067189] (-) TimerEvent: {}
+[17.167470] (-) TimerEvent: {}
+[17.267755] (-) TimerEvent: {}
+[17.367986] (-) TimerEvent: {}
+[17.468272] (-) TimerEvent: {}
+[17.568537] (-) TimerEvent: {}
+[17.668795] (-) TimerEvent: {}
+[17.769059] (-) TimerEvent: {}
+[17.869311] (-) TimerEvent: {}
+[17.969625] (-) TimerEvent: {}
+[18.069896] (-) TimerEvent: {}
+[18.170164] (-) TimerEvent: {}
+[18.270423] (-) TimerEvent: {}
+[18.370645] (-) TimerEvent: {}
+[18.470896] (-) TimerEvent: {}
+[18.571130] (-) TimerEvent: {}
+[18.671386] (-) TimerEvent: {}
+[18.685957] (bumperbot_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dijkstra_planner\x1b[0m\n'}
+[18.771486] (-) TimerEvent: {}
+[18.871760] (-) TimerEvent: {}
+[18.972039] (-) TimerEvent: {}
+[19.072356] (-) TimerEvent: {}
+[19.172620] (-) TimerEvent: {}
+[19.272907] (-) TimerEvent: {}
+[19.346706] (bumperbot_planning) StdoutLine: {'line': b'[100%] Built target dijkstra_planner\n'}
+[19.358479] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[19.359351] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'install'}
+[19.359819] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/bumperbot/build/bumperbot_planning'], 'cwd': '/bumperbot/build/bumperbot_planning', 'env': OrderedDict({'HOSTNAME': 'alienware-00', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/bumperbot/build/bumperbot_planning', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[19.366798] (bumperbot_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.367207] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/include/include\n'}
+[19.367475] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/include/include/bumperbot_planning\n'}
+[19.367565] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp\n'}
+[19.367714] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner\n'}
+[19.372996] (-) TimerEvent: {}
+[19.376854] (bumperbot_planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner" to ""\n'}
+[19.377306] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning\n'}
+[19.377679] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning\n'}
+[19.377937] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh\n'}
+[19.378161] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv\n'}
+[19.378374] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh\n'}
+[19.378499] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv\n'}
+[19.378859] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash\n'}
+[19.379233] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh\n'}
+[19.397731] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh\n'}
+[19.398009] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv\n'}
+[19.398241] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/package.dsv\n'}
+[19.398550] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning\n'}
+[19.398798] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.400089] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.400480] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake\n'}
+[19.400834] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake\n'}
+[19.401142] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/package.xml\n'}
+[19.403410] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[19.420099] (bumperbot_planning) JobEnded: {'identifier': 'bumperbot_planning', 'rc': 0}
+[19.420910] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[0.026s] Invoking command in '/bumperbot/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_firmware
+[0.363s] -- The C compiler identification is GNU 13.3.0
+[0.368s] -- The CXX compiler identification is GNU 13.3.0
+[0.391s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.557s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.558s] -- Detecting C compile features
+[0.559s] -- Detecting C compile features - done
+[0.570s] -- Detecting CXX compiler ABI info
+[0.714s] -- Detecting CXX compiler ABI info - done
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.743s] -- Detecting CXX compile features
+[0.744s] -- Detecting CXX compile features - done
+[0.744s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.925s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.069s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.131s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.149s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.296s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.300s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[1.301s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.413s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.415s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.446s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.446s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[1.446s]   project has asked CMake to find a package configuration file provided by
+[1.446s]   "hardware_interface", but CMake did not find one.
+[1.446s] 
+[1.447s]   Could not find a package configuration file provided by
+[1.447s]   "hardware_interface" with any of the following names:
+[1.447s] 
+[1.447s]     hardware_interfaceConfig.cmake
+[1.447s]     hardware_interface-config.cmake
+[1.447s] 
+[1.447s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[1.447s]   set "hardware_interface_DIR" to a directory containing one of the above
+[1.448s]   files.  If "hardware_interface" provides a separate development package or
+[1.448s]   SDK, be sure it has been installed.
+[1.448s] 
+[1.448s] [0m
+[1.448s] -- Configuring incomplete, errors occurred!
+[1.453s] Invoked command in '/bumperbot/build/bumperbot_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_firmware

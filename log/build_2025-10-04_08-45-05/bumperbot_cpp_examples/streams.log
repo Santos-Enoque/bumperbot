@@ -1,0 +1,33 @@
+[0.023s] Invoking command in '/bumperbot/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_cpp_examples -- -j8 -l8
+[0.055s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.371s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.422s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.658s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.660s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.775s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.837s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.913s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.940s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.940s]   By not providing "Findturtlesim.cmake" in CMAKE_MODULE_PATH this project
+[0.940s]   has asked CMake to find a package configuration file provided by
+[0.941s]   "turtlesim", but CMake did not find one.
+[0.941s] 
+[0.941s]   Could not find a package configuration file provided by "turtlesim" with
+[0.941s]   any of the following names:
+[0.941s] 
+[0.941s]     turtlesimConfig.cmake
+[0.941s]     turtlesim-config.cmake
+[0.942s] 
+[0.942s]   Add the installation prefix of "turtlesim" to CMAKE_PREFIX_PATH or set
+[0.942s]   "turtlesim_DIR" to a directory containing one of the above files.  If
+[0.942s]   "turtlesim" provides a separate development package or SDK, be sure it has
+[0.942s]   been installed.
+[0.942s] 
+[0.943s] [0m
+[0.943s] -- Configuring incomplete, errors occurred!
+[0.946s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1
+[0.958s] Invoked command in '/bumperbot/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_cpp_examples -- -j8 -l8

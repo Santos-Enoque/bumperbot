@@ -1,0 +1,67 @@
+{
+  "name": "ROS2 Jazzy Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "options": [
+      "--network=host"
+    ],
+    "args": {
+      "NEXUS_HOST": "nexus.net.cyberdyne.jp",
+      "NEXUS_NAME": "apt-noble-snapshots",
+      "NEXUS_PUBLIC_KEY": "nexus3-apt-public-key/cyd_nexus-apt_snapshots-public.gpg.key",
+      "USER_UID": "${localEnv:UID}",
+      "USER_GID": "${localEnv:UID}",
+      "USER_NAME": "ubuntu"
+    }
+  },
+  "runArgs": [
+    // For GPU support, check https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+    // For Audio support, add the command "export UID" on your ~/.bashrc or ~/.bash_profile
+    "--privileged",
+    "--network=host",
+    "--env=DISPLAY=${localEnv:DISPLAY}",
+    "--env=QT_X11_NO_MITSHM=1",
+    "--env=NVIDIA_VISIBLE_DEVICES=all",
+    "--env=NVIDIA_DRIVER_CAPABILITIES=all",
+    "--env=ROS_DISTRO=jazzy",
+    "--env=PROJECT_NAME=${localWorkspaceFolderBasename}",
+    "--env=PULSE_SERVER=unix:/run/user/${localEnv:UID}/pulse/native",
+    "--volume=/tmp/.X11-unix:/tmp/.X11-unix",
+    "--volume=/run/user/${localEnv:UID}/pulse/native:/run/user/${localEnv:UID}/pulse/native",
+    // "--runtime=nvidia",
+    // "--gpus=all",
+    // Configure audio support in Docker container:
+    // - Ensure PulseAudio is running on the host (`pulseaudio --start`).
+    // - Add the user to the `audio` group on the host (`sudo usermod -aG audio $(whoami)`).
+    // - Install ALSA and PulseAudio in Docker container (`apt-get install -y pulseaudio alsa-utils`).
+    // - Add permissions for accessing the host's audio hardware and PulseAudio socket:
+    //   * `--group-add=audio` to allow access to the audio group.
+    //   * `--device=/dev/snd` to give access to sound devices.
+    //   * Optionally use `SDL_AUDIODRIVER=dummy` to disable sound entirely if not needed.
+    "--group-add=audio",
+    "--group-add=dialout",
+    "--device=/dev/snd"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        "usernamehw.errorlens",
+        "esbenp.prettier-vscode",
+        "redhat.vscode-xml",
+        "DotJoshJohnson.xml",
+        "redhat.vscode-yaml",
+        "ms-iot.vscode-ros",
+        "ms-python.flake8"
+      ]
+    }
+  }
+}

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dummy/development/bumperbot_ws/src/bumperbot_planning
+CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_planning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dummy/development/bumperbot_ws/build/bumperbot_planning
+CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_planning
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dummy/development/bumperbot_ws/build/bumperbot_planning/CMakeFiles /home/dummy/development/bumperbot_ws/build/bumperbot_planning//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot/build/bumperbot_planning/CMakeFiles /bumperbot/build/bumperbot_planning//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dummy/development/bumperbot_ws/build/bumperbot_planning/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot/build/bumperbot_planning/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,43 @@ bumperbot_planning_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_planning_uninstall.dir/build.make CMakeFiles/bumperbot_planning_uninstall.dir/build
 .PHONY : bumperbot_planning_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named dijkstra_planner
+
+# Build rule for target.
+dijkstra_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dijkstra_planner
+.PHONY : dijkstra_planner
+
+# fast build rule for target.
+dijkstra_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/build
+.PHONY : dijkstra_planner/fast
+
+src/dijkstra_planner.o: src/dijkstra_planner.cpp.o
+.PHONY : src/dijkstra_planner.o
+
+# target to build an object file
+src/dijkstra_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o
+.PHONY : src/dijkstra_planner.cpp.o
+
+src/dijkstra_planner.i: src/dijkstra_planner.cpp.i
+.PHONY : src/dijkstra_planner.i
+
+# target to preprocess a source file
+src/dijkstra_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.i
+.PHONY : src/dijkstra_planner.cpp.i
+
+src/dijkstra_planner.s: src/dijkstra_planner.cpp.s
+.PHONY : src/dijkstra_planner.s
+
+# target to generate assembly for a file
+src/dijkstra_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.s
+.PHONY : src/dijkstra_planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... bumperbot_planning_uninstall"
 	@echo "... uninstall"
+	@echo "... dijkstra_planner"
+	@echo "... src/dijkstra_planner.o"
+	@echo "... src/dijkstra_planner.i"
+	@echo "... src/dijkstra_planner.s"
 .PHONY : help
 
 

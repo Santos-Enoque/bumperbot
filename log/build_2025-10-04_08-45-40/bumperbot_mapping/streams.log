@@ -1,0 +1,14 @@
+[0.018s] Invoking command in '/bumperbot/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_mapping -- -j8 -l8
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[0.097s] [ 50%] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.465s] running egg_info
+[0.466s] creating bumperbot_mapping.egg-info
+[0.492s] writing bumperbot_mapping.egg-info/PKG-INFO
+[0.492s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[0.492s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[0.493s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.551s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.551s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.598s] [ 50%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[10.344s] [100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[10.866s] [100%] Built target mapping_with_known_poses

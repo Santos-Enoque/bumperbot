@@ -1,0 +1,4 @@
+Invoking command in '/bumperbot/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_localization -- -j8 -l8
+Invoked command in '/bumperbot/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_localization -- -j8 -l8
+Invoking command in '/bumperbot/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_localization
+Invoked command in '/bumperbot/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_localization

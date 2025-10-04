@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -60,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples
+CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_cpp_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples
+CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_cpp_examples
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot/build/bumperbot_cpp_examples/CMakeFiles /bumperbot/build/bumperbot_cpp_examples//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot/build/bumperbot_cpp_examples/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,12 @@
+/bumperbot/build/bumperbot_mapping/CMakeFiles/uninstall.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/bumperbot_mapping_uninstall.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/mapping_with_known_poses.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/ament_cmake_python_copy_bumperbot_mapping.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/test.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/edit_cache.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/rebuild_cache.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/list_install_components.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/install.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/install/local.dir
+/bumperbot/build/bumperbot_mapping/CMakeFiles/install/strip.dir

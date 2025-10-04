@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/bumperbot/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_planning
+[0.209s] -- The C compiler identification is GNU 13.3.0
+[0.351s] -- The CXX compiler identification is GNU 13.3.0
+[0.376s] -- Detecting C compiler ABI info
+[0.493s] -- Detecting C compiler ABI info - done
+[0.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.507s] -- Detecting C compile features - done
+[0.519s] -- Detecting CXX compiler ABI info
+[0.631s] -- Detecting CXX compiler ABI info - done
+[0.647s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.647s] -- Detecting CXX compile features
+[0.648s] -- Detecting CXX compile features - done
+[0.653s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.978s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.036s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.055s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.221s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.224s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[1.226s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.329s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.357s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.432s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.828s] -- Configuring done (1.8s)
+[1.873s] -- Generating done (0.0s)
+[1.885s] -- Build files have been written to: /bumperbot/build/bumperbot_planning
+[1.897s] Invoked command in '/bumperbot/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_planning
+[1.898s] Invoking command in '/bumperbot/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_planning -- -j8 -l8
+[1.972s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[18.676s] [100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+[19.337s] [100%] Built target dijkstra_planner
+[19.348s] Invoked command in '/bumperbot/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_planning -- -j8 -l8
+[19.350s] Invoking command in '/bumperbot/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_planning
+[19.357s] -- Install configuration: ""
+[19.357s] -- Installing: /bumperbot/install/bumperbot_planning/include/include
+[19.357s] -- Installing: /bumperbot/install/bumperbot_planning/include/include/bumperbot_planning
+[19.357s] -- Installing: /bumperbot/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[19.357s] -- Installing: /bumperbot/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner
+[19.367s] -- Set non-toolchain portion of runtime path of "/bumperbot/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner" to ""
+[19.367s] -- Installing: /bumperbot/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[19.367s] -- Installing: /bumperbot/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[19.368s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[19.368s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[19.368s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[19.368s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[19.369s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[19.369s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[19.387s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[19.388s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[19.388s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[19.388s] -- Installing: /bumperbot/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[19.389s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.390s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.390s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[19.391s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[19.391s] -- Installing: /bumperbot/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[19.394s] Invoked command in '/bumperbot/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_planning

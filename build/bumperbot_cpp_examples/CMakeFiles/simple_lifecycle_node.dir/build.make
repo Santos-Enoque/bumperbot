@@ -27,9 +27,6 @@
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -56,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples
+CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_cpp_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples
+CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_cpp_examples
 
 # Include any dependencies generated for this target.
 include CMakeFiles/simple_lifecycle_node.dir/depend.make
@@ -73,18 +70,18 @@ include CMakeFiles/simple_lifecycle_node.dir/progress.make
 include CMakeFiles/simple_lifecycle_node.dir/flags.make
 
 CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o: CMakeFiles/simple_lifecycle_node.dir/flags.make
-CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o: /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp
+CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o: /bumperbot/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp
 CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o: CMakeFiles/simple_lifecycle_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o -MF CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o.d -o CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o -c /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/bumperbot/build/bumperbot_cpp_examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o -MF CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o.d -o CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o -c /bumperbot/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp
 
 CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp > CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /bumperbot/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp > CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.i
 
 CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp -o CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /bumperbot/src/bumperbot_cpp_examples/src/simple_lifecycle_node.cpp -o CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.s
 
 # Object files for target simple_lifecycle_node
 simple_lifecycle_node_OBJECTS = \
@@ -180,7 +177,7 @@ simple_lifecycle_node: /opt/ros/jazzy/lib/librcpputils.so
 simple_lifecycle_node: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 simple_lifecycle_node: /opt/ros/jazzy/lib/librcutils.so
 simple_lifecycle_node: CMakeFiles/simple_lifecycle_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simple_lifecycle_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/bumperbot/build/bumperbot_cpp_examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simple_lifecycle_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_lifecycle_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +189,6 @@ CMakeFiles/simple_lifecycle_node.dir/clean:
 .PHONY : CMakeFiles/simple_lifecycle_node.dir/clean
 
 CMakeFiles/simple_lifecycle_node.dir/depend:
-	cd /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_lifecycle_node.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /bumperbot/build/bumperbot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot/src/bumperbot_cpp_examples /bumperbot/src/bumperbot_cpp_examples /bumperbot/build/bumperbot_cpp_examples /bumperbot/build/bumperbot_cpp_examples /bumperbot/build/bumperbot_cpp_examples/CMakeFiles/simple_lifecycle_node.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/simple_lifecycle_node.dir/depend
 

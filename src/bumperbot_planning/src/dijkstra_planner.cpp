@@ -1,3 +1,4 @@
+#include <queue>
 #include "bumperbot_planning/dijkstra_planner.hpp"
 #include "rmw/qos_profiles.h"
 
@@ -24,7 +25,6 @@ namespace bumperbot_planning
         tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
     }
 
-
     void DijkstraPlanner::mapCallback(const nav_msgs::msg::OccupancyGrid::SharedPtr map)
     {
         map_ = map;
@@ -45,15 +45,17 @@ namespace bumperbot_planning
 
         geometry_msgs::msg::TransformStamped map_to_base_tf;
 
-        try {
+        try
+        {
             map_to_base_tf = tf_buffer_->lookupTransform(
                 map_->header.frame_id, "base_footprint", tf2::TimePointZero);
         }
-        catch (tf2::TransformException &ex) {
+        catch (tf2::TransformException &ex)
+        {
             RCLCPP_WARN(this->get_logger(), "Could not transform 'base_footprint' to 'map': %s", ex.what());
             return;
         }
-       
+
         geometry_msgs::msg::Pose map_to_base_pose;
         map_to_base_pose.position.x = map_to_base_tf.transform.translation.x;
         map_to_base_pose.position.y = map_to_base_tf.transform.translation.y;
@@ -61,9 +63,9 @@ namespace bumperbot_planning
 
         nav_msgs::msg::Path path = plan(map_to_base_pose, pose->pose);
 
-        if(!path.poses.empty())
+        if (!path.poses.empty())
         {
-            RCLCPP_INFO(this->get_logger(), "Path found with %zu poses.", path.poses.size()); 
+            RCLCPP_INFO(this->get_logger(), "Path found with %zu poses.", path.poses.size());
             path_publisher_->publish(path);
         }
         else
@@ -74,13 +76,84 @@ namespace bumperbot_planning
 
     nav_msgs::msg::Path DijkstraPlanner::plan(const geometry_msgs::msg::Pose &start, const geometry_msgs::msg::Pose &goal)
     {
-        nav_msgs::msg::Path path;
-        // Implement Dijkstra's algorithm here to find the shortest path from start to goal
-        // using the occupancy grid map_ and update visited_map_ accordingly.
-        // For simplicity, this is a placeholder implementation.
+        std::vector<std::pair<int, int>> explore_directions = {
+            {-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-        // Placeholder: Return an empty path
+        std::priority_queue<GraphNode, std::vector<GraphNode>, std::greater<GraphNode>> pending_nodes;
+        std::vector<GraphNode> visited_nodes;
+
+        pending_nodes.push(worldToGrid(start));
+        GraphNode active_node;
+        while (!pending_nodes.empty() && rclcpp::ok())
+        {
+            active_node = pending_nodes.top();
+            pending_nodes.pop();
+
+            if (worldToGrid(goal) == active_node)
+            {
+                RCLCPP_INFO(this->get_logger(), "Goal reached at (%d, %d)", active_node.x, active_node.y);
+                break;
+            }
+
+            for (const auto &dir : explore_directions)
+            {
+                GraphNode new_node = active_node + dir;
+                if (std::find(visited_nodes.begin(), visited_nodes.end(), new_node) == visited_nodes.end() && poseOnMap(new_node) && map_->data[poseToCell(new_node)] == 0)
+                {
+                    new_node.cost = active_node.cost + 1;
+                    new_node.prev = std::make_shared<GraphNode>(active_node);
+                    pending_nodes.push(new_node);
+                    visited_nodes.push_back(new_node);
+                }
+            }
+
+            visited_map_->data[poseToCell(active_node)] = 10; 
+            map_publisher_->publish(*visited_map_);
+        }
+
+        nav_msgs::msg::Path path;
+        path.header.frame_id = map_->header.frame_id;
+
+        while(active_node.prev != nullptr && rclcpp::ok())
+        {
+            geometry_msgs::msg::Pose last_pose = gridToWorld(active_node);
+            geometry_msgs::msg::PoseStamped last_pose_stamped;
+            last_pose_stamped.header.frame_id = map_->header.frame_id;
+            last_pose_stamped.pose = last_pose;
+            path.poses.push_back(last_pose_stamped);
+            active_node = *(active_node.prev);
+        }
+
+        std::reverse(path.poses.begin(), path.poses.end());
         return path;
+    }
+
+    GraphNode DijkstraPlanner::worldToGrid(const geometry_msgs::msg::Pose &pose)
+    {
+        int grid_x = static_cast<int>((pose.position.x - map_->info.origin.position.x) / map_->info.resolution);
+        int grid_y = static_cast<int>((pose.position.y - map_->info.origin.position.y) / map_->info.resolution);
+        return GraphNode(grid_x, grid_y);
+    }
+
+    bool DijkstraPlanner::poseOnMap(const GraphNode &node)
+    {
+        return node.x >= 0 && node.x < static_cast<int>(map_->info.width) &&
+               node.y >= 0 && node.y < static_cast<int>(map_->info.height);
+    }
+
+    unsigned int DijkstraPlanner::poseToCell(const GraphNode &node)
+    {
+        return node.y * map_->info.width + node.x;
+    }
+
+    geometry_msgs::msg::Pose DijkstraPlanner::gridToWorld(const GraphNode &node)
+    {
+        geometry_msgs::msg::Pose pose;
+        pose.position.x = node.x * map_->info.resolution + map_->info.origin.position.x + map_->info.resolution ;
+        pose.position.y = node.y * map_->info.resolution + map_->info.origin.position.y + map_->info.resolution ;
+        pose.position.z = 0.0;
+        pose.orientation.w = 1.0; 
+        return pose;
     }
 }
 

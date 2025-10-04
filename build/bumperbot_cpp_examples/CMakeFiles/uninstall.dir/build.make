@@ -27,9 +27,6 @@
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -56,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples
+CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_cpp_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples
+CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_cpp_examples
 
 # Utility rule file for uninstall.
 
@@ -81,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/src/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples /home/dummy/development/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /bumperbot/build/bumperbot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot/src/bumperbot_cpp_examples /bumperbot/src/bumperbot_cpp_examples /bumperbot/build/bumperbot_cpp_examples /bumperbot/build/bumperbot_cpp_examples /bumperbot/build/bumperbot_cpp_examples/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

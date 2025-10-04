@@ -1,0 +1,6 @@
+Invoking command in '/bumperbot/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_cpp_examples
+Invoked command in '/bumperbot/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_cpp_examples
+Invoking command in '/bumperbot/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_cpp_examples -- -j8 -l8
+Invoked command in '/bumperbot/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_cpp_examples -- -j8 -l8
+Invoking command in '/bumperbot/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_cpp_examples
+Invoked command in '/bumperbot/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_cpp_examples
