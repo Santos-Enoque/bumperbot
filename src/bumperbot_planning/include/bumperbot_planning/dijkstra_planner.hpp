@@ -1,66 +1,75 @@
-#ifndef BUMPERBOT_PLANNING__DIJKSTRA_PLANNER_HPP_
-#define BUMPERBOT_PLANNING__DIJKSTRA_PLANNER_HPP_
+#ifndef DIJKSTRA_PLANNER_HPP
+#define DIJKSTRA_PLANNER_HPP
+
+#include <memory>
+
 #include "rclcpp/rclcpp.hpp"
-#include "nav_msgs/msg/occupancy_grid.hpp"
-#include "geometry_msgs/msg/pose_stamped.hpp"
 #include "nav_msgs/msg/path.hpp"
+#include "nav_msgs/msg/occupancy_grid.hpp"
+#include "geometry_msgs/msg/pose.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
 #include "tf2_ros/buffer.h"
 #include "tf2_ros/transform_listener.h"
 
+
 namespace bumperbot_planning
 {
-     struct GraphNode { 
-        int x;
-        int y;
-        int cost;
-        std::shared_ptr<GraphNode> prev;
+struct GraphNode
+{
+    int x;
+    int y;
+    int cost;
+    std::shared_ptr<GraphNode> prev;
 
+    GraphNode() : GraphNode(0,0) {}
 
-        GraphNode(int x, int y )
-            : x(x), y(y), cost(0) {}
+    GraphNode(int in_x, int in_y) : x(in_x), y(in_y), cost(0){}
 
-        GraphNode() : GraphNode(0, 0) {}
+    bool operator>(const GraphNode & other) const { 
+        return cost > other.cost;
+    }
 
-        bool operator>(const GraphNode &other) const {
-            return cost > other.cost;
-        }
+    bool operator==(const GraphNode & other) const {
+        return x == other.x && y == other.y;
+    }
 
-        bool operator==(const GraphNode &other) const {
-            return x == other.x && y == other.y;
-        }
+    GraphNode operator+(std::pair<int, int> const & other) {
+        GraphNode res(x + other.first, y + other.second);
+        return res;
+    }
+};
 
-        GraphNode operator+(std::pair<int, int> other) const {
-            return GraphNode(x + other.first, y + other.second);
-        }
+class DijkstraPlanner : public rclcpp::Node
+{
+public:
+    DijkstraPlanner();
 
+private:
+    rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr map_sub_;
+    rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_sub_;
+    rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr path_pub_;
+    rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr map_pub_;
 
-     };
+    nav_msgs::msg::OccupancyGrid::SharedPtr map_;
+    nav_msgs::msg::OccupancyGrid visited_map_;
 
-    class DijkstraPlanner : public rclcpp::Node
-    {
-    public:
-        DijkstraPlanner();
+    std::shared_ptr<tf2_ros::TransformListener> tf_listener_;
+    std::unique_ptr<tf2_ros::Buffer> tf_buffer_;
 
-    private:
-        rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr map_subscriber_;
-        rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr goal_subscriber_;
-        rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr path_publisher_;
-        rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr map_publisher_;
+    void mapCallback(const nav_msgs::msg::OccupancyGrid::SharedPtr map);
 
-        nav_msgs::msg::OccupancyGrid::SharedPtr map_;
-        nav_msgs::msg::OccupancyGrid::SharedPtr visited_map_;
+    void goalCallback(const geometry_msgs::msg::PoseStamped::SharedPtr pose);
 
-        std::shared_ptr<tf2_ros::TransformListener> tf_listener_;
-        std::unique_ptr<tf2_ros::Buffer> tf_buffer_;
+    nav_msgs::msg::Path plan(const geometry_msgs::msg::Pose & start, const geometry_msgs::msg::Pose & goal);
 
-        void mapCallback(const nav_msgs::msg::OccupancyGrid::SharedPtr map);
-        void goalCallback(const geometry_msgs::msg::PoseStamped::SharedPtr pose);
-        GraphNode worldToGrid(const geometry_msgs::msg::Pose &pose);
-        geometry_msgs::msg::Pose gridToWorld(const GraphNode &node);
-        bool poseOnMap(const GraphNode &node);
-        unsigned int poseToCell(const GraphNode &node);
+    bool poseOnMap(const GraphNode & node);
 
-        nav_msgs::msg::Path plan(const geometry_msgs::msg::Pose &start, const geometry_msgs::msg::Pose &goal);
-    };
-}
-#endif // BUMPERBOT_PLANNING__DIJKSTRA_PLANNER_HPP_
+    GraphNode worldToGrid(const geometry_msgs::msg::Pose & pose);
+
+    geometry_msgs::msg::Pose gridToWorld(const GraphNode & node);
+
+    unsigned int poseToCell(const GraphNode & node);
+};
+}  // namespace bumperbot_planning
+
+#endif // DIJKSTRA_PLANNER_HPP

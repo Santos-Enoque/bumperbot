@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;std_msgs;nav_msgs;geometry_msgs;tf2_ros")
+set(_exported_dependencies "rclcpp;nav_msgs;geometry_msgs;tf2_ros")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

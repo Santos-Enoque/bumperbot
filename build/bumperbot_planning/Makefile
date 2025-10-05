@@ -198,6 +198,32 @@ bumperbot_planning_uninstall/fast:
 .PHONY : bumperbot_planning_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named ament_cmake_python_copy_bumperbot_planning
+
+# Build rule for target.
+ament_cmake_python_copy_bumperbot_planning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_bumperbot_planning
+.PHONY : ament_cmake_python_copy_bumperbot_planning
+
+# fast build rule for target.
+ament_cmake_python_copy_bumperbot_planning/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_bumperbot_planning.dir/build.make CMakeFiles/ament_cmake_python_copy_bumperbot_planning.dir/build
+.PHONY : ament_cmake_python_copy_bumperbot_planning/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_bumperbot_planning_egg
+
+# Build rule for target.
+ament_cmake_python_build_bumperbot_planning_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_bumperbot_planning_egg
+.PHONY : ament_cmake_python_build_bumperbot_planning_egg
+
+# fast build rule for target.
+ament_cmake_python_build_bumperbot_planning_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_planning_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_planning_egg.dir/build
+.PHONY : ament_cmake_python_build_bumperbot_planning_egg/fast
+
+#=============================================================================
 # Target rules for targets named dijkstra_planner
 
 # Build rule for target.
@@ -209,6 +235,43 @@ dijkstra_planner: cmake_check_build_system
 dijkstra_planner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/build
 .PHONY : dijkstra_planner/fast
+
+#=============================================================================
+# Target rules for targets named a_star_planner
+
+# Build rule for target.
+a_star_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a_star_planner
+.PHONY : a_star_planner
+
+# fast build rule for target.
+a_star_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planner.dir/build.make CMakeFiles/a_star_planner.dir/build
+.PHONY : a_star_planner/fast
+
+src/a_star_planner.o: src/a_star_planner.cpp.o
+.PHONY : src/a_star_planner.o
+
+# target to build an object file
+src/a_star_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planner.dir/build.make CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o
+.PHONY : src/a_star_planner.cpp.o
+
+src/a_star_planner.i: src/a_star_planner.cpp.i
+.PHONY : src/a_star_planner.i
+
+# target to preprocess a source file
+src/a_star_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planner.dir/build.make CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.i
+.PHONY : src/a_star_planner.cpp.i
+
+src/a_star_planner.s: src/a_star_planner.cpp.s
+.PHONY : src/a_star_planner.s
+
+# target to generate assembly for a file
+src/a_star_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planner.dir/build.make CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.s
+.PHONY : src/a_star_planner.cpp.s
 
 src/dijkstra_planner.o: src/dijkstra_planner.cpp.o
 .PHONY : src/dijkstra_planner.o
@@ -247,9 +310,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_bumperbot_planning_egg"
+	@echo "... ament_cmake_python_copy_bumperbot_planning"
 	@echo "... bumperbot_planning_uninstall"
 	@echo "... uninstall"
+	@echo "... a_star_planner"
 	@echo "... dijkstra_planner"
+	@echo "... src/a_star_planner.o"
+	@echo "... src/a_star_planner.i"
+	@echo "... src/a_star_planner.s"
 	@echo "... src/dijkstra_planner.o"
 	@echo "... src/dijkstra_planner.i"
 	@echo "... src/dijkstra_planner.s"

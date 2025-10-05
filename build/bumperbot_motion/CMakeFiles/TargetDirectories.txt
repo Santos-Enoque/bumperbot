@@ -1,0 +1,9 @@
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/uninstall.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/bumperbot_motion_uninstall.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/test.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/edit_cache.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/rebuild_cache.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/list_install_components.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/install.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/install/local.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/install/strip.dir

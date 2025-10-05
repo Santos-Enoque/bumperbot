@@ -6,8 +6,16 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/bumperbot_ws/install/bumperbot_planning/include/**",
+        "/bumperbot_ws/install/bumperbot_mapping/include/**",
+        "/bumperbot_ws/install/bumperbot_localization/include/**",
+        "/bumperbot_ws/install/bumperbot_controller/include/**",
         "/opt/ros/jazzy/include/**",
-        "/bumperbot/src/bumperbot_planning/include/**",
+        "/bumperbot_ws/src/bumperbot_controller/include/**",
+        "/bumperbot_ws/src/bumperbot_localization/include/**",
+        "/bumperbot_ws/src/bumperbot_mapping/include/**",
+        "/bumperbot_ws/src/bumperbot_motion/include/**",
+        "/bumperbot_ws/src/bumperbot_planning/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

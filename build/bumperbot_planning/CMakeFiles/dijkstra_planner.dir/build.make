@@ -162,12 +162,12 @@ dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cp
 dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
 dijkstra_planner: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_typesupport_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_generator_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 dijkstra_planner: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so

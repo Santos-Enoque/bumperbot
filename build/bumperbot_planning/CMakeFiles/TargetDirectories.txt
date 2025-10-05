@@ -1,6 +1,9 @@
 /bumperbot_ws/build/bumperbot_planning/CMakeFiles/uninstall.dir
 /bumperbot_ws/build/bumperbot_planning/CMakeFiles/bumperbot_planning_uninstall.dir
+/bumperbot_ws/build/bumperbot_planning/CMakeFiles/ament_cmake_python_copy_bumperbot_planning.dir
+/bumperbot_ws/build/bumperbot_planning/CMakeFiles/ament_cmake_python_build_bumperbot_planning_egg.dir
 /bumperbot_ws/build/bumperbot_planning/CMakeFiles/dijkstra_planner.dir
+/bumperbot_ws/build/bumperbot_planning/CMakeFiles/a_star_planner.dir
 /bumperbot_ws/build/bumperbot_planning/CMakeFiles/test.dir
 /bumperbot_ws/build/bumperbot_planning/CMakeFiles/edit_cache.dir
 /bumperbot_ws/build/bumperbot_planning/CMakeFiles/rebuild_cache.dir

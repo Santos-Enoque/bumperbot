@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /bumperbot_ws/build/bumperbot_motion
+-- Install configuration: ""
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml

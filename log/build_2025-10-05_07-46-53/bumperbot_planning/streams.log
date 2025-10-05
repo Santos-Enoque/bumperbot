@@ -1,0 +1,78 @@
+[0.016s] Invoking command in '/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.037s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.198s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.223s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.231s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.316s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.371s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.371s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.419s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.631s] -- Configuring done (0.6s)
+[0.646s] -- Generating done (0.0s)
+[0.650s] -- Build files have been written to: /bumperbot_ws/build/bumperbot_planning
+[0.680s] [ 25%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[0.687s] [ 25%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.687s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.838s] running egg_info
+[0.839s] creating bumperbot_planning.egg-info
+[0.850s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.850s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.850s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[0.850s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.880s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.881s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.897s] [ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[7.710s] [ 75%] [32m[1mLinking CXX executable a_star_planner[0m
+[7.719s] [100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+[7.989s] [100%] Built target a_star_planner
+[7.993s] [100%] Built target dijkstra_planner
+[7.999s] Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[8.000s] Invoking command in '/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_planning
+[8.005s] -- Install configuration: ""
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/top_level.txt
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/PKG-INFO
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning
+[8.005s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py
+[8.006s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py
+[8.006s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py
+[8.030s] Listing '/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning'...
+[8.030s] Compiling '/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py'...
+[8.030s] Compiling '/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py'...
+[8.030s] Compiling '/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py'...
+[8.033s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/include/include
+[8.033s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning
+[8.033s] -- Installing: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[8.033s] -- Installing: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[8.033s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner
+[8.038s] -- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner" to ""
+[8.038s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner
+[8.041s] -- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner" to ""
+[8.041s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[8.041s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[8.042s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[8.042s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[8.042s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[8.042s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.042s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[8.042s] -- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[8.042s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[8.043s] Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_planning

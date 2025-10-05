@@ -1,0 +1,15 @@
+/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
