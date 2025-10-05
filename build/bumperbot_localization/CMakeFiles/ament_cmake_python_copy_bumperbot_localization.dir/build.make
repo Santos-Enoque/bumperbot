@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_localization
+CMAKE_SOURCE_DIR = /bumperbot_ws/src/bumperbot_localization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_localization
+CMAKE_BINARY_DIR = /bumperbot_ws/build/bumperbot_localization
 
 # Utility rule file for ament_cmake_python_copy_bumperbot_localization.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/compiler_d
 include CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_bumperbot_localization:
-	/usr/bin/cmake -E copy_directory /bumperbot/src/bumperbot_localization/bumperbot_localization /bumperbot/build/bumperbot_localization/ament_cmake_python/bumperbot_localization/bumperbot_localization
+	/usr/bin/cmake -E copy_directory /bumperbot_ws/src/bumperbot_localization/bumperbot_localization /bumperbot_ws/build/bumperbot_localization/ament_cmake_python/bumperbot_localization/bumperbot_localization
 
 ament_cmake_python_copy_bumperbot_localization: CMakeFiles/ament_cmake_python_copy_bumperbot_localization
 ament_cmake_python_copy_bumperbot_localization: CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/depend:
-	cd /bumperbot/build/bumperbot_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot/src/bumperbot_localization /bumperbot/src/bumperbot_localization /bumperbot/build/bumperbot_localization /bumperbot/build/bumperbot_localization /bumperbot/build/bumperbot_localization/CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /bumperbot_ws/build/bumperbot_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot_ws/src/bumperbot_localization /bumperbot_ws/src/bumperbot_localization /bumperbot_ws/build/bumperbot_localization /bumperbot_ws/build/bumperbot_localization /bumperbot_ws/build/bumperbot_localization/CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_bumperbot_localization.dir/depend
 

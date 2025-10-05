@@ -1,0 +1,60 @@
+[0.009s] Invoking command in '/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_planning
+[0.091s] -- The C compiler identification is GNU 13.3.0
+[0.170s] -- The CXX compiler identification is GNU 13.3.0
+[0.183s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.337s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.544s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.583s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.595s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.696s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.699s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.700s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.758s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.769s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.801s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.966s] -- Configuring done (1.0s)
+[0.974s] -- Generating done (0.0s)
+[0.977s] -- Build files have been written to: /bumperbot_ws/build/bumperbot_planning
+[0.983s] Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_planning
+[0.983s] Invoking command in '/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[1.016s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[9.410s] [100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+[9.673s] [100%] Built target dijkstra_planner
+[9.681s] Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[9.682s] Invoking command in '/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_planning
+[9.687s] -- Install configuration: ""
+[9.687s] -- Installing: /bumperbot_ws/install/bumperbot_planning/include/include
+[9.687s] -- Installing: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning
+[9.687s] -- Installing: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[9.687s] -- Installing: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner
+[9.691s] -- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner" to ""
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[9.691s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.692s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.692s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[9.692s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[9.692s] -- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[9.693s] Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_planning

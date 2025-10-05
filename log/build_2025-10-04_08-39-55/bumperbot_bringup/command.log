@@ -1,6 +1,0 @@
-Invoking command in '/bumperbot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_bringup
-Invoked command in '/bumperbot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_bringup
-Invoking command in '/bumperbot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_bringup -- -j8 -l8
-Invoked command in '/bumperbot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_bringup -- -j8 -l8
-Invoking command in '/bumperbot/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_bringup
-Invoked command in '/bumperbot/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_bringup

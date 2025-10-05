@@ -1,5 +1,5 @@
 CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: \
- /bumperbot/src/bumperbot_planning/src/dijkstra_planner.cpp \
+ /bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/queue \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -54,7 +54,7 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/stl_queue.h \
- /bumperbot/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp \
+ /bumperbot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \

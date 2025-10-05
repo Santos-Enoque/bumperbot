@@ -1,4 +1,0 @@
-Invoking command in '/bumperbot/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_planning -- -j8 -l8
-Invoked command in '/bumperbot/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_planning -- -j8 -l8
-Invoking command in '/bumperbot/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_planning
-Invoked command in '/bumperbot/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_planning

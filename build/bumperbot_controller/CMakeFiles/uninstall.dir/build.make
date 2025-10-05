@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_controller
+CMAKE_SOURCE_DIR = /bumperbot_ws/src/bumperbot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_controller
+CMAKE_BINARY_DIR = /bumperbot_ws/build/bumperbot_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /bumperbot/build/bumperbot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot/src/bumperbot_controller /bumperbot/src/bumperbot_controller /bumperbot/build/bumperbot_controller /bumperbot/build/bumperbot_controller /bumperbot/build/bumperbot_controller/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /bumperbot_ws/build/bumperbot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot_ws/src/bumperbot_controller /bumperbot_ws/src/bumperbot_controller /bumperbot_ws/build/bumperbot_controller /bumperbot_ws/build/bumperbot_controller /bumperbot_ws/build/bumperbot_controller/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

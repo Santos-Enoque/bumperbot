@@ -1,1 +1,0 @@
-hardware_interface:libserial-dev:pluginlib:python3-serial:python3-smbus:rclcpp:rclcpp_lifecycle:rclpy:std_msgs

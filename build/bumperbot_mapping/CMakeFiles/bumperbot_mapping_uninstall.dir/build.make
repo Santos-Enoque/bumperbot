@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_mapping
+CMAKE_SOURCE_DIR = /bumperbot_ws/src/bumperbot_mapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_mapping
+CMAKE_BINARY_DIR = /bumperbot_ws/build/bumperbot_mapping
 
 # Utility rule file for bumperbot_mapping_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/bumperbot_mapping_uninstall.dir/compiler_depend.make
 include CMakeFiles/bumperbot_mapping_uninstall.dir/progress.make
 
 CMakeFiles/bumperbot_mapping_uninstall:
-	/usr/bin/cmake -P /bumperbot/build/bumperbot_mapping/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /bumperbot_ws/build/bumperbot_mapping/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 bumperbot_mapping_uninstall: CMakeFiles/bumperbot_mapping_uninstall
 bumperbot_mapping_uninstall: CMakeFiles/bumperbot_mapping_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/bumperbot_mapping_uninstall.dir/clean:
 .PHONY : CMakeFiles/bumperbot_mapping_uninstall.dir/clean
 
 CMakeFiles/bumperbot_mapping_uninstall.dir/depend:
-	cd /bumperbot/build/bumperbot_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot/src/bumperbot_mapping /bumperbot/src/bumperbot_mapping /bumperbot/build/bumperbot_mapping /bumperbot/build/bumperbot_mapping /bumperbot/build/bumperbot_mapping/CMakeFiles/bumperbot_mapping_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /bumperbot_ws/build/bumperbot_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot_ws/src/bumperbot_mapping /bumperbot_ws/src/bumperbot_mapping /bumperbot_ws/build/bumperbot_mapping /bumperbot_ws/build/bumperbot_mapping /bumperbot_ws/build/bumperbot_mapping/CMakeFiles/bumperbot_mapping_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bumperbot_mapping_uninstall.dir/depend
 

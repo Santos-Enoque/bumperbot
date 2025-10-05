@@ -1,6 +1,0 @@
-Invoking command in '/bumperbot/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_controller
-Invoked command in '/bumperbot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/bumperbot/install/bumperbot_controller
-Invoking command in '/bumperbot/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_controller -- -j8 -l8
-Invoked command in '/bumperbot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot/build/bumperbot_controller -- -j8 -l8
-Invoking command in '/bumperbot/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_controller
-Invoked command in '/bumperbot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot/build/bumperbot_controller

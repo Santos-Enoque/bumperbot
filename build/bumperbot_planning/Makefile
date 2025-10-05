@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_planning
+CMAKE_SOURCE_DIR = /bumperbot_ws/src/bumperbot_planning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_planning
+CMAKE_BINARY_DIR = /bumperbot_ws/build/bumperbot_planning
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot/build/bumperbot_planning/CMakeFiles /bumperbot/build/bumperbot_planning//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot_ws/build/bumperbot_planning/CMakeFiles /bumperbot_ws/build/bumperbot_planning//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot/build/bumperbot_planning/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /bumperbot_ws/build/bumperbot_planning/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

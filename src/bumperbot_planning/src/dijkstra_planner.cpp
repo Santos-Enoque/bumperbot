@@ -21,6 +21,8 @@ namespace bumperbot_planning
         path_publisher_ = this->create_publisher<nav_msgs::msg::Path>("/dijkstra/path", path_qos);
         map_publisher_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("/dijkstra/visited_map", 10);
 
+        visited_map_ = std::make_shared<nav_msgs::msg::OccupancyGrid>();
+
         tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock());
         tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
     }

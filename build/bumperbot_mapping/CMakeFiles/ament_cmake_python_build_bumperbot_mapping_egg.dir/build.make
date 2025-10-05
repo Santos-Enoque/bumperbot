@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /bumperbot/src/bumperbot_mapping
+CMAKE_SOURCE_DIR = /bumperbot_ws/src/bumperbot_mapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /bumperbot/build/bumperbot_mapping
+CMAKE_BINARY_DIR = /bumperbot_ws/build/bumperbot_mapping
 
 # Utility rule file for ament_cmake_python_build_bumperbot_mapping_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/compiler_d
 include CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg:
-	cd /bumperbot/build/bumperbot_mapping/ament_cmake_python/bumperbot_mapping && /usr/bin/python3 setup.py egg_info
+	cd /bumperbot_ws/build/bumperbot_mapping/ament_cmake_python/bumperbot_mapping && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_bumperbot_mapping_egg: CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg
 ament_cmake_python_build_bumperbot_mapping_egg: CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/depend:
-	cd /bumperbot/build/bumperbot_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot/src/bumperbot_mapping /bumperbot/src/bumperbot_mapping /bumperbot/build/bumperbot_mapping /bumperbot/build/bumperbot_mapping /bumperbot/build/bumperbot_mapping/CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /bumperbot_ws/build/bumperbot_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /bumperbot_ws/src/bumperbot_mapping /bumperbot_ws/src/bumperbot_mapping /bumperbot_ws/build/bumperbot_mapping /bumperbot_ws/build/bumperbot_mapping /bumperbot_ws/build/bumperbot_mapping/CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg.dir/depend
 

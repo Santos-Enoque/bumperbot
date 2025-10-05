@@ -7,14 +7,13 @@ RUN echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME
 
 # Switch from root to user
 USER $USERNAME
-sudo apt install -y build-essential git tmux ros-dev-tools bsdmainutils pulseaudio alsa-utils ros-jazzy-rmw-zenoh-cpp psmisc nodejs npm
 # Add user to video group to allow access to webcam
 RUN sudo usermod --append --groups video,dialout $USERNAME
 
 # Install system dependencies including Zenoh RMW
 RUN sudo apt update && \
     sudo apt upgrade -y && \
-    sudo apt install -y build-essential git tmux ros-dev-tools bsdmainutils pulseaudio alsa-utils ros-jazzy-ros-gz-sim ros-jazzy-ros-gz-bridge ros-jazzy-rmw-zenoh-cpp psmisc nodejs npm
+    sudo apt install -y build-essential git tmux ros-dev-tools bsdmainutils pulseaudio alsa-utils ros-jazzy-ros-gz-sim ros-jazzy-ros-gz-bridge ros-jazzy-rmw-zenoh-cpp ros-jazzy-controller-manager ros-jazzy-ros2-control ros-jazzy-twist-mux psmisc nodejs npm
 
 # Setup environment
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc && \
