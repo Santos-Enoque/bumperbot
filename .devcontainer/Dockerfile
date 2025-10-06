@@ -10,10 +10,30 @@ USER $USERNAME
 # Add user to video group to allow access to webcam
 RUN sudo usermod --append --groups video,dialout $USERNAME
 
-# Install system dependencies including Zenoh RMW
+# Install system dependencies including Zenoh RMW and all ROS2 packages
 RUN sudo apt update && \
     sudo apt upgrade -y && \
-    sudo apt install -y build-essential git tmux ros-dev-tools bsdmainutils pulseaudio alsa-utils ros-jazzy-ros-gz-sim ros-jazzy-ros-gz-bridge ros-jazzy-rmw-zenoh-cpp ros-jazzy-controller-manager ros-jazzy-ros2-control ros-jazzy-twist-mux psmisc nodejs npm
+    sudo apt install -y \
+    # System dependencies
+    build-essential git tmux ros-dev-tools bsdmainutils pulseaudio alsa-utils psmisc nodejs npm python3-pip \
+    # Simulation
+    ros-jazzy-ros-gz-sim ros-jazzy-ros-gz-bridge ros-jazzy-gz-ros2-control \
+    # RMW
+    ros-jazzy-rmw-zenoh-cpp \
+    # Control
+    ros-jazzy-controller-manager ros-jazzy-ros2-control ros-jazzy-ros2-controllers \
+    ros-jazzy-twist-mux ros-jazzy-joy ros-jazzy-joy-teleop \
+    # Navigation (Nav2)
+    ros-jazzy-nav2-amcl ros-jazzy-nav2-map-server ros-jazzy-nav2-lifecycle-manager \
+    # Localization & Mapping
+    ros-jazzy-robot-localization ros-jazzy-slam-toolbox \
+    # Description & Visualization
+    ros-jazzy-robot-state-publisher ros-jazzy-joint-state-publisher-gui \
+    ros-jazzy-urdf ros-jazzy-xacro ros-jazzy-rviz2 \
+    # Sensors
+    ros-jazzy-rplidar-ros && \
+    # Python dependencies
+    pip3 install transforms3d --break-system-packages
 
 # Setup environment
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc && \

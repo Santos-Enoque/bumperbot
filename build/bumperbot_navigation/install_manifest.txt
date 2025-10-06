@@ -1,0 +1,15 @@
+/bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/package_run_dependencies/bumperbot_navigation
+/bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/parent_prefix_path/bumperbot_navigation
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.sh
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.dsv
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.sh
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.dsv
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.bash
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.sh
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.zsh
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.dsv
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.dsv
+/bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/packages/bumperbot_navigation
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig.cmake
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig-version.cmake
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/bumperbot_ws/build/bumperbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot_ws/src/bumperbot_navigation -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_navigation
+Invoked command in '/bumperbot_ws/build/bumperbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot_ws/src/bumperbot_navigation -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_navigation
+Invoking command in '/bumperbot_ws/build/bumperbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_navigation -- -j16 -l16
+Invoked command in '/bumperbot_ws/build/bumperbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_navigation -- -j16 -l16
+Invoking command in '/bumperbot_ws/build/bumperbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_navigation
+Invoked command in '/bumperbot_ws/build/bumperbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_navigation

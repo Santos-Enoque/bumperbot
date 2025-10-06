@@ -198,6 +198,32 @@ bumperbot_motion_uninstall/fast:
 .PHONY : bumperbot_motion_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named ament_cmake_python_copy_bumperbot_motion
+
+# Build rule for target.
+ament_cmake_python_copy_bumperbot_motion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_bumperbot_motion
+.PHONY : ament_cmake_python_copy_bumperbot_motion
+
+# fast build rule for target.
+ament_cmake_python_copy_bumperbot_motion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_bumperbot_motion.dir/build.make CMakeFiles/ament_cmake_python_copy_bumperbot_motion.dir/build
+.PHONY : ament_cmake_python_copy_bumperbot_motion/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_bumperbot_motion_egg
+
+# Build rule for target.
+ament_cmake_python_build_bumperbot_motion_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_bumperbot_motion_egg
+.PHONY : ament_cmake_python_build_bumperbot_motion_egg
+
+# fast build rule for target.
+ament_cmake_python_build_bumperbot_motion_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_motion_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_motion_egg.dir/build
+.PHONY : ament_cmake_python_build_bumperbot_motion_egg/fast
+
+#=============================================================================
 # Target rules for targets named pd_motion_planner
 
 # Build rule for target.
@@ -209,6 +235,19 @@ pd_motion_planner: cmake_check_build_system
 pd_motion_planner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pd_motion_planner.dir/build.make CMakeFiles/pd_motion_planner.dir/build
 .PHONY : pd_motion_planner/fast
+
+#=============================================================================
+# Target rules for targets named pure_pursuit
+
+# Build rule for target.
+pure_pursuit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pure_pursuit
+.PHONY : pure_pursuit
+
+# fast build rule for target.
+pure_pursuit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/build
+.PHONY : pure_pursuit/fast
 
 src/pd_motion_planner.o: src/pd_motion_planner.cpp.o
 .PHONY : src/pd_motion_planner.o
@@ -234,6 +273,30 @@ src/pd_motion_planner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pd_motion_planner.dir/build.make CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.s
 .PHONY : src/pd_motion_planner.cpp.s
 
+src/pure_pursuit.o: src/pure_pursuit.cpp.o
+.PHONY : src/pure_pursuit.o
+
+# target to build an object file
+src/pure_pursuit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o
+.PHONY : src/pure_pursuit.cpp.o
+
+src/pure_pursuit.i: src/pure_pursuit.cpp.i
+.PHONY : src/pure_pursuit.i
+
+# target to preprocess a source file
+src/pure_pursuit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.i
+.PHONY : src/pure_pursuit.cpp.i
+
+src/pure_pursuit.s: src/pure_pursuit.cpp.s
+.PHONY : src/pure_pursuit.s
+
+# target to generate assembly for a file
+src/pure_pursuit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pure_pursuit.dir/build.make CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.s
+.PHONY : src/pure_pursuit.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,12 +310,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_bumperbot_motion_egg"
+	@echo "... ament_cmake_python_copy_bumperbot_motion"
 	@echo "... bumperbot_motion_uninstall"
 	@echo "... uninstall"
 	@echo "... pd_motion_planner"
+	@echo "... pure_pursuit"
 	@echo "... src/pd_motion_planner.o"
 	@echo "... src/pd_motion_planner.i"
 	@echo "... src/pd_motion_planner.s"
+	@echo "... src/pure_pursuit.o"
+	@echo "... src/pure_pursuit.i"
+	@echo "... src/pure_pursuit.s"
 .PHONY : help
 
 

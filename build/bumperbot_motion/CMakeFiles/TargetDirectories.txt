@@ -1,6 +1,9 @@
 /bumperbot_ws/build/bumperbot_motion/CMakeFiles/uninstall.dir
 /bumperbot_ws/build/bumperbot_motion/CMakeFiles/bumperbot_motion_uninstall.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/ament_cmake_python_copy_bumperbot_motion.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/ament_cmake_python_build_bumperbot_motion_egg.dir
 /bumperbot_ws/build/bumperbot_motion/CMakeFiles/pd_motion_planner.dir
+/bumperbot_ws/build/bumperbot_motion/CMakeFiles/pure_pursuit.dir
 /bumperbot_ws/build/bumperbot_motion/CMakeFiles/test.dir
 /bumperbot_ws/build/bumperbot_motion/CMakeFiles/edit_cache.dir
 /bumperbot_ws/build/bumperbot_motion/CMakeFiles/rebuild_cache.dir
