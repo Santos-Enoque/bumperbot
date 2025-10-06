@@ -1,0 +1,44 @@
+[0.012s] Invoking command in '/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.343s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.347s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.348s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.409s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.451s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.615s] -- Configuring done (0.6s)
+[0.623s] -- Generating done (0.0s)
+[0.625s] -- Build files have been written to: /bumperbot_ws/build/bumperbot_motion
+[0.648s] [ 50%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+[6.083s] [100%] [32m[1mLinking CXX executable pd_motion_planner[0m
+[6.290s] [100%] Built target pd_motion_planner
+[6.296s] Invoked command in '/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+[6.297s] Invoking command in '/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_motion
+[6.301s] -- Install configuration: ""
+[6.301s] -- Installing: /bumperbot_ws/install/bumperbot_motion/include/
+[6.301s] -- Installing: /bumperbot_ws/install/bumperbot_motion/include//bumperbot_motion
+[6.302s] -- Installing: /bumperbot_ws/install/bumperbot_motion/include//bumperbot_motion/pd_motion_planner.hpp
+[6.302s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner
+[6.304s] -- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner" to ""
+[6.304s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[6.304s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[6.304s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[6.304s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[6.304s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[6.304s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[6.304s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[6.305s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[6.305s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[6.305s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[6.305s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[6.305s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[6.305s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.305s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.305s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[6.305s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[6.305s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[6.306s] Invoked command in '/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_motion

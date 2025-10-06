@@ -17,8 +17,10 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
@@ -39,6 +41,7 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
@@ -1070,8 +1073,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /usr/include/c++/13/ios:
 
-/usr/include/c++/13/iomanip:
-
 /usr/include/c++/13/future:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -1220,7 +1221,11 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
 
@@ -1242,8 +1247,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
-/usr/include/c++/13/bits/locale_facets_nonio.tcc:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp:
 
 /bumperbot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:
@@ -1251,6 +1254,8 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
 
@@ -1444,13 +1449,13 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/c++/13/bits/erase_if.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp:
 
 /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
 
@@ -1458,9 +1463,25 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
+
+/usr/include/c++/13/bits/erase_if.h:
 
 /usr/include/c++/13/cctype:
 
@@ -1522,6 +1543,8 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rcl/rcl/service.h:
 
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
@@ -1550,12 +1573,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
@@ -1570,6 +1587,24 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
+
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
 /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
@@ -1580,12 +1615,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
@@ -1593,14 +1622,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/time.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
@@ -1642,6 +1663,18 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h:
+
+/opt/ros/jazzy/include/rcl/rcl/wait.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/13/bits/locale_conv.h:
@@ -1656,30 +1689,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /usr/include/c++/13/bits/locale_facets.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h:
-
-/opt/ros/jazzy/include/rcl/rcl/wait.h:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
@@ -1691,6 +1700,22 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 /opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
+
+/usr/include/c++/13/iomanip:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/opt/ros/jazzy/include/tf2/tf2/visibility_control.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
 
 /bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:
 
@@ -1721,6 +1746,10 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
@@ -1754,14 +1783,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
-/opt/ros/jazzy/include/tf2/tf2/convert.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
@@ -1773,8 +1794,6 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
-
-/usr/include/c++/13/bits/locale_facets_nonio.h:
 
 /usr/include/c++/13/cstddef:
 
@@ -1928,29 +1947,21 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp:
-
-/usr/include/c++/13/bits/node_handle.h:
-
-/opt/ros/jazzy/include/tf2/tf2/visibility_control.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/convert.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
 
 /usr/include/c++/13/streambuf:
 
@@ -2523,5 +2534,3 @@ CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: /bumperbot_ws/src/bu
 /usr/include/c++/13/bits/list.tcc:
 
 /usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/c++/13/bits/localefwd.h:
