@@ -1,7 +1,7 @@
 CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /bumperbot_ws/src/bumperbot_motion/src/pure_pursuit.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/chrono \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/stdc-predef.h /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -12,119 +12,124 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/type_traits \
- /usr/include/c++/13/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/limits /usr/include/c++/13/ctime /usr/include/time.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/ext/numeric_traits.h \
- /usr/include/c++/13/bits/cpp_type_traits.h \
- /usr/include/c++/13/ext/type_traits.h \
- /bumperbot_ws/src/bumperbot_motion/include/bumperbot_motion/pure_pursuit.hpp \
- /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
- /usr/include/c++/13/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
- /usr/include/c++/13/bits/new_allocator.h /usr/include/c++/13/new \
- /usr/include/c++/13/bits/exception.h \
+ /usr/include/c++/13/pstl/pstl_config.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
- /usr/include/c++/13/bits/move.h /usr/include/c++/13/bits/stl_tempbuf.h \
- /usr/include/c++/13/bits/stl_construct.h \
+ /usr/include/c++/13/bits/cpp_type_traits.h \
+ /usr/include/c++/13/ext/type_traits.h \
+ /usr/include/c++/13/ext/numeric_traits.h \
+ /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/type_traits \
+ /usr/include/c++/13/bits/move.h /usr/include/c++/13/bits/utility.h \
  /usr/include/c++/13/bits/stl_iterator_base_types.h \
  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/13/bits/concept_check.h \
  /usr/include/c++/13/debug/assertions.h \
- /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
- /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/stl_iterator.h \
  /usr/include/c++/13/bits/ptr_traits.h /usr/include/c++/13/debug/debug.h \
  /usr/include/c++/13/bits/predefined_ops.h /usr/include/c++/13/bit \
- /usr/include/c++/13/ext/alloc_traits.h \
- /usr/include/c++/13/bits/alloc_traits.h \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/include/c++/13/bits/uses_allocator.h \
- /usr/include/c++/13/bits/unique_ptr.h /usr/include/c++/13/tuple \
- /usr/include/c++/13/bits/invoke.h \
- /usr/include/c++/13/bits/stl_function.h \
- /usr/include/c++/13/backward/binders.h \
- /usr/include/c++/13/bits/functional_hash.h \
- /usr/include/c++/13/bits/hash_bytes.h \
- /usr/include/c++/13/bits/shared_ptr.h /usr/include/c++/13/iosfwd \
- /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
- /usr/include/c++/13/cwchar /usr/include/wchar.h \
+ /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/initializer_list /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/new \
+ /usr/include/c++/13/bits/exception.h \
+ /usr/include/c++/13/bits/stl_construct.h /usr/include/c++/13/cstdlib \
+ /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/13/bits/shared_ptr_base.h /usr/include/c++/13/typeinfo \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/bits/refwrap.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/exception \
- /usr/include/c++/13/bits/exception_ptr.h \
- /usr/include/c++/13/bits/cxxabi_init_exception.h \
- /usr/include/c++/13/bits/nested_exception.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/13/bits/std_abs.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
+ /opt/ros/jazzy/include/nav2_util/nav2_util/node_utils.hpp \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+ /usr/include/c++/13/bits/new_allocator.h \
+ /usr/include/c++/13/bits/memoryfwd.h \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/ext/alloc_traits.h \
+ /usr/include/c++/13/bits/alloc_traits.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/functional_hash.h \
+ /usr/include/c++/13/bits/hash_bytes.h /usr/include/c++/13/bits/refwrap.h \
+ /usr/include/c++/13/bits/invoke.h \
+ /usr/include/c++/13/bits/stl_function.h \
+ /usr/include/c++/13/backward/binders.h \
+ /usr/include/c++/13/bits/range_access.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
+ /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
+ /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
+ /usr/include/c++/13/bits/char_traits.h \
+ /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/c++/13/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+ /usr/include/c++/13/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/cctype /usr/include/ctype.h \
+ /usr/include/c++/13/bits/ostream_insert.h \
+ /usr/include/c++/13/bits/cxxabi_forced.h \
+ /usr/include/c++/13/bits/basic_string.h /usr/include/c++/13/string_view \
+ /usr/include/c++/13/bits/string_view.tcc \
+ /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/13/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/13/bits/charconv.h \
+ /usr/include/c++/13/bits/basic_string.tcc \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
@@ -150,53 +155,46 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h /usr/include/c++/13/typeinfo \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/exception \
+ /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp \
- /usr/include/c++/13/string /usr/include/c++/13/bits/char_traits.h \
- /usr/include/c++/13/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
- /usr/include/ctype.h /usr/include/c++/13/bits/ostream_insert.h \
- /usr/include/c++/13/bits/cxxabi_forced.h \
- /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/initializer_list \
- /usr/include/c++/13/bits/basic_string.h /usr/include/c++/13/string_view \
- /usr/include/c++/13/bits/string_view.tcc \
- /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/13/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/13/bits/charconv.h \
- /usr/include/c++/13/bits/basic_string.tcc \
- /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
- /usr/include/c++/13/bits/uses_allocator_args.h \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
- /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h /usr/include/c++/13/array \
- /usr/include/c++/13/compare \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
@@ -228,7 +226,7 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
  /usr/include/c++/13/codecvt /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
- /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
@@ -366,11 +364,15 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h \
  /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
+ /usr/include/c++/13/cstdint \
  /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp \
  /opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
- /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/limits \
+ /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/functional \
+ /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
  /usr/include/c++/13/bits/hashtable.h \
@@ -686,39 +688,9 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
- /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp \
- /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
- /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
- /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
- /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
- /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.h \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.hpp \
- /opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/utils.h \
+ /opt/ros/jazzy/include/tf2/tf2/utils.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/visibility_control.h \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
@@ -726,56 +698,29 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /usr/include/c++/13/math.h /usr/include/c++/13/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp \
- /opt/ros/jazzy/include/tf2/tf2/visibility_control.h \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/impl/utils.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/convert.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
- /opt/ros/jazzy/include/tf2/tf2/buffer_core_interface.hpp \
- /opt/ros/jazzy/include/tf2/tf2/time.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/tf2/tf2/exceptions.hpp \
- /opt/ros/jazzy/include/tf2/tf2/transform_storage.hpp \
- /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
- /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.hpp \
- /opt/ros/jazzy/include/tf2/tf2/transform_datatypes.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.hpp \
- /opt/ros/jazzy/include/tf2/tf2/convert.hpp \
  /opt/ros/jazzy/include/tf2/tf2/impl/convert.hpp \
- /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
- /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp \
- /opt/ros/jazzy/include/tf2/tf2/utils.h \
- /opt/ros/jazzy/include/tf2/tf2/utils.hpp \
- /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
- /opt/ros/jazzy/include/tf2/tf2/impl/utils.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/transform_datatypes.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/time.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.hpp \
@@ -787,8 +732,10 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp \
@@ -801,6 +748,11 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
@@ -809,6 +761,11 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp \
@@ -826,6 +783,13 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
@@ -838,4 +802,232 @@ CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp \
  /usr/include/kdl/frames.hpp /usr/include/kdl/utilities/kdl-config.h \
  /usr/include/kdl/utilities/utility.h \
- /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl
+ /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.hpp \
+ /bumperbot_ws/src/bumperbot_motion/include/bumperbot_motion/pure_pursuit.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+ /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+ /opt/ros/jazzy/include/rcl/rcl/rcl.h \
+ /opt/ros/jazzy/include/rcl/rcl/init.h \
+ /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_core/controller.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/polygon.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp \
+ /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp \
+ /opt/ros/jazzy/include/map_msgs/map_msgs/msg/occupancy_grid_update.hpp \
+ /opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__struct.hpp \
+ /opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__builder.hpp \
+ /opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__traits.hpp \
+ /opt/ros/jazzy/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__type_support.hpp \
+ /opt/ros/jazzy/include/map_msgs/map_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/costmap.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/transform_datatypes.h \
+ /opt/ros/jazzy/include/nav2_util/nav2_util/lifecycle_node.hpp \
+ /opt/ros/jazzy/include/nav2_util/nav2_util/node_thread.hpp \
+ /opt/ros/jazzy/include/bondcpp/bondcpp/bond.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/constants.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/constants__struct.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/constants__builder.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/constants__traits.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/constants__type_support.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/status.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/status__struct.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/status__builder.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/status__traits.hpp \
+ /opt/ros/jazzy/include/bond/bond/msg/detail/status__type_support.hpp \
+ /opt/ros/jazzy/include/bondcpp/bondcpp/BondSM_sm.hpp \
+ /opt/ros/jazzy/include/smclib/smclib/statemap.hpp \
+ /opt/ros/jazzy/include/bondcpp/bondcpp/visibility_control.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/polygon.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_util/nav2_util/robot_utils.hpp \
+ /opt/ros/jazzy/include/tf2/tf2/time.h \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_pose.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_pose__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp \
+ /opt/ros/jazzy/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/get_cost.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_cost__struct.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_cost__builder.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_cost__traits.hpp \
+ /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/srv/detail/get_cost__type_support.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+ /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+ /usr/include/console_bridge/console.h \
+ /usr/include/console_bridge_export.h \
+ /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+ /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+ /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+ /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
+ /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+ /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+ /usr/include/tinyxml2.h /usr/include/c++/13/climits \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+ /usr/include/c++/13/filesystem /usr/include/c++/13/bits/fs_fwd.h \
+ /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/bits/fs_dir.h \
+ /usr/include/c++/13/bits/fs_ops.h \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
+ /usr/include/c++/13/regex /usr/include/c++/13/bitset \
+ /usr/include/c++/13/stack /usr/include/c++/13/bits/stl_stack.h \
+ /usr/include/c++/13/bits/regex_constants.h \
+ /usr/include/c++/13/bits/regex_error.h \
+ /usr/include/c++/13/bits/regex_automaton.h \
+ /usr/include/c++/13/bits/regex_automaton.tcc \
+ /usr/include/c++/13/bits/regex_scanner.h \
+ /usr/include/c++/13/bits/regex_scanner.tcc \
+ /usr/include/c++/13/bits/regex_compiler.h \
+ /usr/include/c++/13/bits/regex_compiler.tcc \
+ /usr/include/c++/13/bits/regex.h /usr/include/c++/13/bits/regex.tcc \
+ /usr/include/c++/13/bits/regex_executor.h \
+ /usr/include/c++/13/bits/regex_executor.tcc \
+ /opt/ros/jazzy/include/tf2/tf2/convert.h \
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
+ /opt/ros/jazzy/include/nav2_core/goal_checker.hpp \
+ /opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp

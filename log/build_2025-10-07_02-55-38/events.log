@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000057] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.000077] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.000087] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.000095] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.000102] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.000108] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.000115] (-) JobUnselected: {'identifier': 'bumperbot_motion'}
+[0.000121] (-) JobUnselected: {'identifier': 'bumperbot_navigation'}
+[0.000127] (-) JobUnselected: {'identifier': 'bumperbot_planning'}
+[0.000135] (bumperbot_msgs) JobQueued: {'identifier': 'bumperbot_msgs', 'dependencies': OrderedDict()}
+[0.000301] (bumperbot_msgs) JobStarted: {'identifier': 'bumperbot_msgs'}
+[0.005115] (bumperbot_msgs) JobProgress: {'identifier': 'bumperbot_msgs', 'progress': 'cmake'}
+[0.005368] (bumperbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/bumperbot_ws/src/bumperbot_msgs', '-DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_msgs'], 'cwd': '/bumperbot_ws/build/bumperbot_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'HOSTNAME': 'dummy-XP-Z590', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.104.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f43720a8-30b9-4a99-90fe-e632acbb6b86.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot_ws', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '32307', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7be5f47d5fcb0d5724745931ebb3deb6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1b0676cfe0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/bumperbot_ws/build/bumperbot_msgs', 'ENABLE_IDE_INTEGRATION': 'true', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.039192] (bumperbot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.072407] (bumperbot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.081875] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099912] (-) TimerEvent: {}
+[0.140937] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.147095] (bumperbot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.147266] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147508] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.152982] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200014] (-) TimerEvent: {}
+[0.216334] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.221809] (bumperbot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.221971] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.222298] (bumperbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.225864] (bumperbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300087] (-) TimerEvent: {}
+[0.310660] (bumperbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.398858] (bumperbot_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.400158] (-) TimerEvent: {}
+[0.439452] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.453247] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.468222] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.484017] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500247] (-) TimerEvent: {}
+[0.521912] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.539325] (bumperbot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.600330] (-) TimerEvent: {}
+[0.700460] (-) TimerEvent: {}
+[0.800585] (-) TimerEvent: {}
+[0.900705] (-) TimerEvent: {}
+[0.940165] (bumperbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.000783] (-) TimerEvent: {}
+[1.100900] (-) TimerEvent: {}
+[1.201017] (-) TimerEvent: {}
+[1.301157] (-) TimerEvent: {}
+[1.401282] (-) TimerEvent: {}
+[1.418178] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501364] (-) TimerEvent: {}
+[1.601496] (-) TimerEvent: {}
+[1.604737] (bumperbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.608507] (bumperbot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.680980] (bumperbot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.701582] (-) TimerEvent: {}
+[1.801723] (-) TimerEvent: {}
+[1.901837] (-) TimerEvent: {}
+[1.985237] (bumperbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.001922] (-) TimerEvent: {}
+[2.026981] (bumperbot_msgs) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.054601] (bumperbot_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.061961] (bumperbot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /bumperbot_ws/build/bumperbot_msgs\n'}
+[2.066709] (bumperbot_msgs) CommandEnded: {'returncode': 0}
+[2.067433] (bumperbot_msgs) JobProgress: {'identifier': 'bumperbot_msgs', 'progress': 'build'}
+[2.067453] (bumperbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/bumperbot_ws/build/bumperbot_msgs', '--', '-j16', '-l16'], 'cwd': '/bumperbot_ws/build/bumperbot_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'HOSTNAME': 'dummy-XP-Z590', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.104.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f43720a8-30b9-4a99-90fe-e632acbb6b86.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot_ws', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '32307', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7be5f47d5fcb0d5724745931ebb3deb6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1b0676cfe0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/bumperbot_ws/build/bumperbot_msgs', 'ENABLE_IDE_INTEGRATION': 'true', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.102017] (-) TimerEvent: {}
+[2.102225] (bumperbot_msgs) StdoutLine: {'line': b'[  1%] Generating type hashes for ROS interfaces\n'}
+[2.106046] (bumperbot_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_bumperbot_msgs\n'}
+[2.202090] (-) TimerEvent: {}
+[2.240590] (bumperbot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.241169] (bumperbot_msgs) StdoutLine: {'line': b'creating bumperbot_msgs.egg-info\n'}
+[2.251959] (bumperbot_msgs) StdoutLine: {'line': b'writing bumperbot_msgs.egg-info/PKG-INFO\n'}
+[2.252126] (bumperbot_msgs) StdoutLine: {'line': b'writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt\n'}
+[2.252249] (bumperbot_msgs) StdoutLine: {'line': b'writing top-level names to bumperbot_msgs.egg-info/top_level.txt\n'}
+[2.252301] (bumperbot_msgs) StdoutLine: {'line': b"writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.284487] (bumperbot_msgs) StdoutLine: {'line': b"reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.284779] (bumperbot_msgs) StdoutLine: {'line': b"writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.294432] (bumperbot_msgs) StdoutLine: {'line': b'[  1%] Built target bumperbot_msgs__rosidl_generator_type_description\n'}
+[2.301523] (bumperbot_msgs) StdoutLine: {'line': b'[  3%] Generating C code for ROS interfaces\n'}
+[2.302167] (-) TimerEvent: {}
+[2.302893] (bumperbot_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_bumperbot_msgs_egg\n'}
+[2.308478] (bumperbot_msgs) StdoutLine: {'line': b'[  5%] Generating C++ code for ROS interfaces\n'}
+[2.402290] (-) TimerEvent: {}
+[2.502447] (-) TimerEvent: {}
+[2.602565] (-) TimerEvent: {}
+[2.692291] (bumperbot_msgs) StdoutLine: {'line': b'[  5%] Built target bumperbot_msgs__cpp\n'}
+[2.702641] (-) TimerEvent: {}
+[2.750051] (bumperbot_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__description.c.o\n'}
+[2.750374] (bumperbot_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o\n'}
+[2.750552] (bumperbot_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__description.c.o\n'}
+[2.750656] (bumperbot_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o\n'}
+[2.750720] (bumperbot_msgs) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o\n'}
+[2.750779] (bumperbot_msgs) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__description.c.o\n'}
+[2.751004] (bumperbot_msgs) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o\n'}
+[2.751881] (bumperbot_msgs) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__functions.c.o\n'}
+[2.752430] (bumperbot_msgs) StdoutLine: {'line': b'[ 22%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o\n'}
+[2.802782] (-) TimerEvent: {}
+[2.858255] (bumperbot_msgs) StdoutLine: {'line': b'[ 24%] Linking C shared library libbumperbot_msgs__rosidl_generator_c.so\n'}
+[2.884644] (bumperbot_msgs) StdoutLine: {'line': b'[ 24%] Built target bumperbot_msgs__rosidl_generator_c\n'}
+[2.892152] (bumperbot_msgs) StdoutLine: {'line': b'[ 35%] Generating C introspection for ROS interfaces\n'}
+[2.892331] (bumperbot_msgs) StdoutLine: {'line': b'[ 35%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.892397] (bumperbot_msgs) StdoutLine: {'line': b'[ 35%] Generating C type support for eProsima Fast-RTPS\n'}
+[2.892456] (bumperbot_msgs) StdoutLine: {'line': b'[ 35%] Generating C++ type support dispatch for ROS interfaces\n'}
+[2.892513] (bumperbot_msgs) StdoutLine: {'line': b'[ 35%] Generating C type support dispatch for ROS interfaces\n'}
+[2.892560] (bumperbot_msgs) StdoutLine: {'line': b'[ 35%] Generating C++ introspection for ROS interfaces\n'}
+[2.902850] (-) TimerEvent: {}
+[3.003011] (-) TimerEvent: {}
+[3.103134] (-) TimerEvent: {}
+[3.145398] (bumperbot_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o\n'}
+[3.146413] (bumperbot_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/action/fibonacci__type_support.cpp.o\n'}
+[3.146602] (bumperbot_msgs) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o\n'}
+[3.157831] (bumperbot_msgs) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/action/fibonacci__type_support.cpp.o\n'}
+[3.159996] (bumperbot_msgs) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o\n'}
+[3.160158] (bumperbot_msgs) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o\n'}
+[3.194877] (bumperbot_msgs) StdoutLine: {'line': b'[ 48%] Linking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so\n'}
+[3.203224] (-) TimerEvent: {}
+[3.213246] (bumperbot_msgs) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/action/detail/fibonacci__type_support.cpp.o\n'}
+[3.213434] (bumperbot_msgs) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o\n'}
+[3.213694] (bumperbot_msgs) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o\n'}
+[3.225879] (bumperbot_msgs) StdoutLine: {'line': b'[ 53%] Built target bumperbot_msgs__rosidl_typesupport_c\n'}
+[3.259868] (bumperbot_msgs) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o\n'}
+[3.260054] (bumperbot_msgs) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o\n'}
+[3.260138] (bumperbot_msgs) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o\n'}
+[3.303318] (-) TimerEvent: {}
+[3.325430] (bumperbot_msgs) StdoutLine: {'line': b'[ 61%] Linking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.354699] (bumperbot_msgs) StdoutLine: {'line': b'[ 61%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c\n'}
+[3.389488] (bumperbot_msgs) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\n'}
+[3.391308] (bumperbot_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o\n'}
+[3.391486] (bumperbot_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\n'}
+[3.403413] (-) TimerEvent: {}
+[3.503582] (-) TimerEvent: {}
+[3.518795] (bumperbot_msgs) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/action/detail/fibonacci__type_support_c.cpp.o\n'}
+[3.519953] (bumperbot_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o\n'}
+[3.521255] (bumperbot_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o\n'}
+[3.603677] (-) TimerEvent: {}
+[3.703855] (-) TimerEvent: {}
+[3.733642] (bumperbot_msgs) StdoutLine: {'line': b'[ 74%] Linking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so\n'}
+[3.803957] (-) TimerEvent: {}
+[3.804373] (bumperbot_msgs) StdoutLine: {'line': b'[ 74%] Built target bumperbot_msgs__rosidl_typesupport_cpp\n'}
+[3.820198] (bumperbot_msgs) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.884472] (bumperbot_msgs) StdoutLine: {'line': b'[ 75%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.904026] (-) TimerEvent: {}
+[3.931375] (bumperbot_msgs) StdoutLine: {'line': b'[ 77%] Linking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.981853] (bumperbot_msgs) StdoutLine: {'line': b'[ 77%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.004129] (-) TimerEvent: {}
+[4.104284] (-) TimerEvent: {}
+[4.134814] (bumperbot_msgs) StdoutLine: {'line': b'[ 79%] Linking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.203010] (bumperbot_msgs) StdoutLine: {'line': b'[ 79%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.204336] (-) TimerEvent: {}
+[4.216243] (bumperbot_msgs) StdoutLine: {'line': b'[ 79%] Built target bumperbot_msgs\n'}
+[4.229679] (bumperbot_msgs) StdoutLine: {'line': b'[ 81%] Generating Python code for ROS interfaces\n'}
+[4.304448] (-) TimerEvent: {}
+[4.404562] (-) TimerEvent: {}
+[4.504691] (-) TimerEvent: {}
+[4.604808] (-) TimerEvent: {}
+[4.704924] (-) TimerEvent: {}
+[4.805026] (-) TimerEvent: {}
+[4.878600] (bumperbot_msgs) StdoutLine: {'line': b'[ 81%] Built target bumperbot_msgs__py\n'}
+[4.892332] (bumperbot_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o\n'}
+[4.892441] (bumperbot_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o\n'}
+[4.892485] (bumperbot_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/action/_fibonacci_s.c.o\n'}
+[4.905126] (-) TimerEvent: {}
+[5.005272] (-) TimerEvent: {}
+[5.041776] (bumperbot_msgs) StdoutLine: {'line': b'[ 88%] Linking C shared library libbumperbot_msgs__rosidl_generator_py.so\n'}
+[5.072537] (bumperbot_msgs) StdoutLine: {'line': b'[ 88%] Built target bumperbot_msgs__rosidl_generator_py\n'}
+[5.086478] (bumperbot_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[5.086597] (bumperbot_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[5.086645] (bumperbot_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[5.105356] (-) TimerEvent: {}
+[5.180821] (bumperbot_msgs) StdoutLine: {'line': b'[ 96%] Linking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so\n'}
+[5.182191] (bumperbot_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.184645] (bumperbot_msgs) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.202565] (bumperbot_msgs) StdoutLine: {'line': b'[100%] Built target bumperbot_msgs_s__rosidl_typesupport_c\n'}
+[5.203818] (bumperbot_msgs) StdoutLine: {'line': b'[100%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[5.205309] (bumperbot_msgs) StdoutLine: {'line': b'[100%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c\n'}
+[5.205371] (-) TimerEvent: {}
+[5.212775] (bumperbot_msgs) CommandEnded: {'returncode': 0}
+[5.213195] (bumperbot_msgs) JobProgress: {'identifier': 'bumperbot_msgs', 'progress': 'install'}
+[5.219077] (bumperbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/bumperbot_ws/build/bumperbot_msgs'], 'cwd': '/bumperbot_ws/build/bumperbot_msgs', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'HOSTNAME': 'dummy-XP-Z590', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.104.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f43720a8-30b9-4a99-90fe-e632acbb6b86.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot_ws', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '32307', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7be5f47d5fcb0d5724745931ebb3deb6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1b0676cfe0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/bumperbot_ws/build/bumperbot_msgs', 'ENABLE_IDE_INTEGRATION': 'true', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.224726] (bumperbot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.224864] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs\n'}
+[5.224945] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.json\n'}
+[5.225027] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.json\n'}
+[5.225097] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.json\n'}
+[5.225183] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs\n'}
+[5.225277] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg\n'}
+[5.225354] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.225464] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv\n'}
+[5.225535] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail\n'}
+[5.225576] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c\n'}
+[5.225616] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h\n'}
+[5.225655] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h\n'}
+[5.225694] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c\n'}
+[5.225796] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h\n'}
+[5.225843] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h\n'}
+[5.225884] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c\n'}
+[5.225923] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c\n'}
+[5.226041] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h\n'}
+[5.226084] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__description.c\n'}
+[5.226124] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h\n'}
+[5.226163] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__description.c\n'}
+[5.226201] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h\n'}
+[5.226240] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h\n'}
+[5.226279] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action\n'}
+[5.226393] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.h\n'}
+[5.226435] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail\n'}
+[5.226474] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.c\n'}
+[5.226527] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.h\n'}
+[5.226569] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.h\n'}
+[5.226609] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c\n'}
+[5.226648] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.h\n'}
+[5.226729] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__description.c\n'}
+[5.226769] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh\n'}
+[5.226807] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv\n'}
+[5.226844] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so\n'}
+[5.226934] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""\n'}
+[5.226982] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs\n'}
+[5.227063] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg\n'}
+[5.227104] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.227143] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv\n'}
+[5.227182] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail\n'}
+[5.227221] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h\n'}
+[5.227303] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[5.227345] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action\n'}
+[5.227384] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail\n'}
+[5.227440] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[5.227508] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.227644] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.227691] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs\n'}
+[5.227733] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg\n'}
+[5.227775] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.228193] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv\n'}
+[5.228434] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp\n'}
+[5.228480] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp\n'}
+[5.228519] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail\n'}
+[5.228577] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp\n'}
+[5.228621] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp\n'}
+[5.228661] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp\n'}
+[5.228701] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp\n'}
+[5.228741] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp\n'}
+[5.228786] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp\n'}
+[5.228985] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp\n'}
+[5.229034] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp\n'}
+[5.229075] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action\n'}
+[5.229166] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.hpp\n'}
+[5.229208] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail\n'}
+[5.229247] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__traits.hpp\n'}
+[5.229284] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.hpp\n'}
+[5.229323] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__builder.hpp\n'}
+[5.229362] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.hpp\n'}
+[5.229401] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs\n'}
+[5.229440] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg\n'}
+[5.229479] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.229519] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv\n'}
+[5.229559] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail\n'}
+[5.229600] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps\n'}
+[5.229640] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.229682] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.229723] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action\n'}
+[5.229784] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail\n'}
+[5.229830] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.229871] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/dds_fastrtps\n'}
+[5.229911] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.230037] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.230208] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs\n'}
+[5.230249] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg\n'}
+[5.230325] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.230366] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv\n'}
+[5.230405] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail\n'}
+[5.230443] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c\n'}
+[5.230482] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[5.230521] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h\n'}
+[5.230560] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c\n'}
+[5.230600] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action\n'}
+[5.230638] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail\n'}
+[5.230677] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c\n'}
+[5.230767] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[5.230807] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.230845] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.230883] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so\n'}
+[5.230922] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.230963] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs\n'}
+[5.231072] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv\n'}
+[5.231112] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail\n'}
+[5.231148] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.231245] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp\n'}
+[5.231284] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.231359] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp\n'}
+[5.231399] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action\n'}
+[5.231439] (bumperbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail\n'}
+[5.231478] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.231517] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.cpp\n'}
+[5.231556] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.231594] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.231633] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so\n'}
+[5.231671] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.231710] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh\n'}
+[5.231749] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv\n'}
+[5.231787] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info\n'}
+[5.231893] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.231933] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.231972] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.232105] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.232147] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs\n'}
+[5.232186] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.232224] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.232363] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py\n'}
+[5.232494] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.232538] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.232577] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.232634] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv\n'}
+[5.232676] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py\n'}
+[5.232714] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py\n'}
+[5.232752] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints_s.c\n'}
+[5.232789] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py\n'}
+[5.232826] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform_s.c\n'}
+[5.232862] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so\n'}
+[5.232898] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action\n'}
+[5.232935] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py\n'}
+[5.232971] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py\n'}
+[5.233020] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci_s.c\n'}
+[5.267260] (bumperbot_msgs) StdoutLine: {'line': b"Listing '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs'...\n"}
+[5.267364] (bumperbot_msgs) StdoutLine: {'line': b"Compiling '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py'...\n"}
+[5.267405] (bumperbot_msgs) StdoutLine: {'line': b"Listing '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action'...\n"}
+[5.267441] (bumperbot_msgs) StdoutLine: {'line': b"Compiling '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py'...\n"}
+[5.267477] (bumperbot_msgs) StdoutLine: {'line': b"Compiling '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py'...\n"}
+[5.267511] (bumperbot_msgs) StdoutLine: {'line': b"Listing '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv'...\n"}
+[5.267546] (bumperbot_msgs) StdoutLine: {'line': b"Compiling '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py'...\n"}
+[5.267581] (bumperbot_msgs) StdoutLine: {'line': b"Compiling '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py'...\n"}
+[5.267616] (bumperbot_msgs) StdoutLine: {'line': b"Compiling '/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py'...\n"}
+[5.271022] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.271190] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.271302] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.271429] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.271505] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so\n'}
+[5.271654] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[5.271729] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so\n'}
+[5.271879] (bumperbot_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""\n'}
+[5.271973] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.idl\n'}
+[5.272030] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl\n'}
+[5.272104] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl\n'}
+[5.272147] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.action\n'}
+[5.272218] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv\n'}
+[5.272260] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv\n'}
+[5.272352] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs\n'}
+[5.272394] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs\n'}
+[5.272478] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh\n'}
+[5.272525] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv\n'}
+[5.272748] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh\n'}
+[5.272817] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv\n'}
+[5.272889] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash\n'}
+[5.272960] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh\n'}
+[5.273054] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh\n'}
+[5.273101] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv\n'}
+[5.273172] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv\n'}
+[5.273213] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs\n'}
+[5.273281] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake\n'}
+[5.273353] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.273449] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.273490] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.273574] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.273615] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.273697] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.273739] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.273811] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.273852] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.273923] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.273969] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.274048] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.274120] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.274161] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.274232] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.274273] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.274343] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.274385] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.274456] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.274498] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.274568] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.274609] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.274680] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.274750] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake\n'}
+[5.274793] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake\n'}
+[5.274862] (bumperbot_msgs) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml\n'}
+[5.275765] (bumperbot_msgs) CommandEnded: {'returncode': 0}
+[5.288985] (bumperbot_msgs) JobEnded: {'identifier': 'bumperbot_msgs', 'rc': 0}
+[5.289320] (-) EventReactorShutdown: {}

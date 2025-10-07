@@ -1,0 +1,22 @@
+[  7%] Built target simple_publisher
+[ 14%] Built target simple_subscriber
+[ 21%] Built target simple_qos_subscriber
+[ 28%] Built target simple_service_client
+[ 35%] Built target simple_turtlesim_kinematics
+[ 42%] Built target simple_qos_publisher
+[ 50%] Built target simple_lifecycle_node
+[ 57%] Built target simple_action_server_node
+[ 64%] Built target simple_tf_kinematics
+[ 67%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[ 78%] Built target simple_service_server
+[ 85%] Built target simple_parameter
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_action_client.cpp: No such file or directory
+compilation terminated.
+[ 92%] Built target simple_action_client_node
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 96%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[ 96%] Built target simple_action_server
+gmake: *** [Makefile:146: all] Error 2

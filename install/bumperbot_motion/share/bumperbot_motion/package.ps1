@@ -111,6 +111,7 @@ function colcon_package_source_powershell_script {
 $env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.FullName
 
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/bumperbot_motion/hook/cmake_prefix_path.ps1"
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/bumperbot_motion/hook/ld_library_path_lib.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/bumperbot_motion/hook/pythonpath.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/bumperbot_motion/local_setup.ps1"
 

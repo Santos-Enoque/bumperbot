@@ -1,0 +1,45 @@
+[0.016s] Invoking command in '/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_cpp_examples
+[0.144s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.162s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.530s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.569s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.685s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.746s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.785s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.817s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.835s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.835s]   By not providing "Findturtlesim.cmake" in CMAKE_MODULE_PATH this project
+[0.835s]   has asked CMake to find a package configuration file provided by
+[0.835s]   "turtlesim", but CMake did not find one.
+[0.835s] 
+[0.835s]   Could not find a package configuration file provided by "turtlesim" with
+[0.835s]   any of the following names:
+[0.835s] 
+[0.835s]     turtlesimConfig.cmake
+[0.835s]     turtlesim-config.cmake
+[0.835s] 
+[0.836s]   Add the installation prefix of "turtlesim" to CMAKE_PREFIX_PATH or set
+[0.836s]   "turtlesim_DIR" to a directory containing one of the above files.  If
+[0.836s]   "turtlesim" provides a separate development package or SDK, be sure it has
+[0.836s]   been installed.
+[0.836s] 
+[0.836s] [0m
+[0.836s] -- Configuring incomplete, errors occurred!
+[0.839s] Invoked command in '/bumperbot_ws/build/bumperbot_cpp_examples' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/bumperbot_cpp_examples

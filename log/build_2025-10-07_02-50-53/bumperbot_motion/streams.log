@@ -1,0 +1,87 @@
+[0.012s] Invoking command in '/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.169s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.189s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.269s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.270s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.330s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.330s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.363s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.363s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.435s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.437s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.438s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.442s] -- Found nav2_core: 1.3.8 (/opt/ros/jazzy/share/nav2_core/cmake)
+[0.671s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.917s] -- Configuring done (0.9s)
+[1.003s] -- Generating done (0.1s)
+[1.009s] -- Build files have been written to: /bumperbot_ws/build/bumperbot_motion
+[1.038s] [  0%] Built target ament_cmake_python_copy_bumperbot_motion
+[1.041s] [ 50%] Building CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o
+[1.041s] [ 50%] Building CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o
+[1.180s] running egg_info
+[1.191s] writing bumperbot_motion.egg-info/PKG-INFO
+[1.192s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[1.192s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[1.225s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[1.225s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[1.247s] [ 50%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[5.292s] [ 75%] Linking CXX shared library libpure_pursuit.so
+[5.292s] [100%] Linking CXX shared library libpd_motion_planner.so
+[5.566s] [100%] Built target pd_motion_planner
+[5.568s] [100%] Built target pure_pursuit
+[5.575s] Invoked command in '/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+[5.575s] Invoking command in '/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_motion
+[5.581s] -- Install configuration: ""
+[5.581s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.sh
+[5.581s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.dsv
+[5.581s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/top_level.txt
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/PKG-INFO
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.581s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pure_pursuit.py
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py
+[5.581s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/__init__.py
+[5.606s] Listing '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion'...
+[5.606s] Compiling '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/__init__.py'...
+[5.606s] Compiling '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py'...
+[5.606s] Compiling '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pure_pursuit.py'...
+[5.610s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/motion_planner_plugins.xml
+[5.610s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so
+[5.611s] -- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so" to ""
+[5.611s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/libpure_pursuit.so
+[5.612s] -- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_motion/lib/libpure_pursuit.so" to ""
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/include/include
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pure_pursuit.hpp
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pd_motion_planner.hpp
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner.py
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pure_pursuit.py
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.sh
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.dsv
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[5.612s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[5.612s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[5.613s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_motion
+[5.613s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_libraries-extras.cmake
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[5.613s] -- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[5.613s] -- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[5.614s] Invoked command in '/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_motion

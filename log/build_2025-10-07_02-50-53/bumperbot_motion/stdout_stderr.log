@@ -1,0 +1,83 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_core: 1.3.8 (/opt/ros/jazzy/share/nav2_core/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Configuring done (0.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /bumperbot_ws/build/bumperbot_motion
+[  0%] Built target ament_cmake_python_copy_bumperbot_motion
+[ 50%] Building CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o
+[ 50%] Building CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o
+running egg_info
+writing bumperbot_motion.egg-info/PKG-INFO
+writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+writing top-level names to bumperbot_motion.egg-info/top_level.txt
+reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[ 75%] Linking CXX shared library libpure_pursuit.so
+[100%] Linking CXX shared library libpd_motion_planner.so
+[100%] Built target pd_motion_planner
+[100%] Built target pure_pursuit
+-- Install configuration: ""
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pure_pursuit.py
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/__init__.py
+Listing '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion'...
+Compiling '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/__init__.py'...
+Compiling '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py'...
+Compiling '/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pure_pursuit.py'...
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/motion_planner_plugins.xml
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so
+-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so" to ""
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/libpure_pursuit.so
+-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_motion/lib/libpure_pursuit.so" to ""
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/include/include
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion
+-- Installing: /bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pure_pursuit.hpp
+-- Installing: /bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pd_motion_planner.hpp
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner.py
+-- Installing: /bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pure_pursuit.py
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.sh
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.dsv
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_motion
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+-- Up-to-date: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml

@@ -7,14 +7,18 @@
       },
       "includePath": [
         "/bumperbot_ws/install/bumperbot_planning/include/**",
+        "/bumperbot_ws/install/bumperbot_motion/include/**",
+        "/bumperbot_ws/install/bumperbot_msgs/include/**",
         "/bumperbot_ws/install/bumperbot_mapping/include/**",
         "/bumperbot_ws/install/bumperbot_localization/include/**",
         "/bumperbot_ws/install/bumperbot_controller/include/**",
         "/opt/ros/jazzy/include/**",
         "/bumperbot_ws/src/bumperbot_controller/include/**",
+        "/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
         "/bumperbot_ws/src/bumperbot_localization/include/**",
         "/bumperbot_ws/src/bumperbot_mapping/include/**",
         "/bumperbot_ws/src/bumperbot_motion/include/**",
+        "/bumperbot_ws/src/bumperbot_navigation/include/**",
         "/bumperbot_ws/src/bumperbot_planning/include/**",
         "/usr/include/**"
       ],

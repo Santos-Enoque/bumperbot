@@ -1,0 +1,2 @@
+Invoking command in '/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+Invoked command in '/bumperbot_ws/build/bumperbot_motion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_motion -- -j16 -l16
