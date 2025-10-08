@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000056] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.000075] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.000085] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.000093] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.000100] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.000108] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.000114] (-) JobUnselected: {'identifier': 'bumperbot_motion'}
+[0.000120] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.000127] (-) JobUnselected: {'identifier': 'bumperbot_navigation'}
+[0.000136] (bumperbot_planning) JobQueued: {'identifier': 'bumperbot_planning', 'dependencies': OrderedDict()}
+[0.000556] (bumperbot_planning) JobStarted: {'identifier': 'bumperbot_planning'}
+[0.011151] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'cmake'}
+[0.011716] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'build'}
+[0.012204] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/bumperbot_ws/build/bumperbot_planning', '--', '-j16', '-l16'], 'cwd': '/bumperbot_ws/build/bumperbot_planning', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'HOSTNAME': 'dummy-XP-Z590', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.104.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-87878a04-3c2f-452a-8d94-8201be38c8d1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot_ws', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-1eeb65dd-ec21-40b0-9dd0-0f8a30f006f0.sock', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7be5f47d5fcb0d5724745931ebb3deb6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1b0676cfe0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-1eeb65dd-ec21-40b0-9dd0-0f8a30f006f0.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/bumperbot_ws/build/bumperbot_planning', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.062188] (bumperbot_planning) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_bumperbot_planning\n'}
+[0.065271] (bumperbot_planning) StdoutLine: {'line': b'[ 50%] Built target a_star_planner\n'}
+[0.069921] (bumperbot_planning) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o\n'}
+[0.102231] (-) TimerEvent: {}
+[0.202421] (-) TimerEvent: {}
+[0.244199] (bumperbot_planning) StdoutLine: {'line': b'running egg_info\n'}
+[0.259764] (bumperbot_planning) StdoutLine: {'line': b'writing bumperbot_planning.egg-info/PKG-INFO\n'}
+[0.260067] (bumperbot_planning) StdoutLine: {'line': b'writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt\n'}
+[0.260313] (bumperbot_planning) StdoutLine: {'line': b'writing top-level names to bumperbot_planning.egg-info/top_level.txt\n'}
+[0.299722] (bumperbot_planning) StdoutLine: {'line': b"reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'\n"}
+[0.300344] (bumperbot_planning) StdoutLine: {'line': b"writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'\n"}
+[0.302508] (-) TimerEvent: {}
+[0.322027] (bumperbot_planning) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_bumperbot_planning_egg\n'}
+[0.403186] (-) TimerEvent: {}
+[0.503348] (-) TimerEvent: {}
+[0.603487] (-) TimerEvent: {}
+[0.703626] (-) TimerEvent: {}
+[0.804752] (-) TimerEvent: {}
+[0.904947] (-) TimerEvent: {}
+[1.005127] (-) TimerEvent: {}
+[1.105302] (-) TimerEvent: {}
+[1.205479] (-) TimerEvent: {}
+[1.305657] (-) TimerEvent: {}
+[1.405821] (-) TimerEvent: {}
+[1.505965] (-) TimerEvent: {}
+[1.606167] (-) TimerEvent: {}
+[1.706361] (-) TimerEvent: {}
+[1.806522] (-) TimerEvent: {}
+[1.906703] (-) TimerEvent: {}
+[2.006842] (-) TimerEvent: {}
+[2.106981] (-) TimerEvent: {}
+[2.207117] (-) TimerEvent: {}
+[2.308059] (-) TimerEvent: {}
+[2.408228] (-) TimerEvent: {}
+[2.508392] (-) TimerEvent: {}
+[2.608528] (-) TimerEvent: {}
+[2.708661] (-) TimerEvent: {}
+[2.808792] (-) TimerEvent: {}
+[2.909027] (-) TimerEvent: {}
+[3.009302] (-) TimerEvent: {}
+[3.109838] (-) TimerEvent: {}
+[3.210211] (-) TimerEvent: {}
+[3.310355] (-) TimerEvent: {}
+[3.410511] (-) TimerEvent: {}
+[3.510659] (-) TimerEvent: {}
+[3.610816] (-) TimerEvent: {}
+[3.710958] (-) TimerEvent: {}
+[3.811097] (-) TimerEvent: {}
+[3.911247] (-) TimerEvent: {}
+[4.011386] (-) TimerEvent: {}
+[4.111519] (-) TimerEvent: {}
+[4.211662] (-) TimerEvent: {}
+[4.311806] (-) TimerEvent: {}
+[4.381546] (bumperbot_planning) StdoutLine: {'line': b'[100%] Linking CXX shared library libdijkstra_planner.so\n'}
+[4.411920] (-) TimerEvent: {}
+[4.512100] (-) TimerEvent: {}
+[4.611562] (bumperbot_planning) StdoutLine: {'line': b'[100%] Built target dijkstra_planner\n'}
+[4.612295] (-) TimerEvent: {}
+[4.621577] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[4.622081] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'install'}
+[4.629555] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/bumperbot_ws/build/bumperbot_planning'], 'cwd': '/bumperbot_ws/build/bumperbot_planning', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'HOSTNAME': 'dummy-XP-Z590', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.104.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-87878a04-3c2f-452a-8d94-8201be38c8d1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot_ws', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-1eeb65dd-ec21-40b0-9dd0-0f8a30f006f0.sock', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7be5f47d5fcb0d5724745931ebb3deb6/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1b0676cfe0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-1eeb65dd-ec21-40b0-9dd0-0f8a30f006f0.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/bumperbot_ws/build/bumperbot_planning', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.635473] (bumperbot_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.635682] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh\n'}
+[4.635756] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv\n'}
+[4.635823] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info\n'}
+[4.635888] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[4.635954] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[4.636087] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[4.636161] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[4.636209] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning\n'}
+[4.636248] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py\n'}
+[4.636287] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py\n'}
+[4.636325] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py\n'}
+[4.664522] (bumperbot_planning) StdoutLine: {'line': b"Listing '/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning'...\n"}
+[4.669674] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml\n'}
+[4.669940] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so\n'}
+[4.670299] (bumperbot_planning) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/bumperbot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so" to ""\n'}
+[4.670395] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/liba_star_planner.so\n'}
+[4.670544] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/include/include\n'}
+[4.670676] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning\n'}
+[4.670719] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp\n'}
+[4.670761] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp\n'}
+[4.670802] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml\n'}
+[4.670902] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py\n'}
+[4.670944] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py\n'}
+[4.671037] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh\n'}
+[4.671079] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv\n'}
+[4.671117] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning\n'}
+[4.671168] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning\n'}
+[4.671212] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh\n'}
+[4.671252] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv\n'}
+[4.671291] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh\n'}
+[4.671329] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv\n'}
+[4.671374] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash\n'}
+[4.671414] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh\n'}
+[4.671453] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh\n'}
+[4.671491] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv\n'}
+[4.671531] (bumperbot_planning) StdoutLine: {'line': b'-- Installing: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv\n'}
+[4.671570] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning\n'}
+[4.671610] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning\n'}
+[4.671650] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.671689] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.671731] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.671770] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake\n'}
+[4.671809] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake\n'}
+[4.671848] (bumperbot_planning) StdoutLine: {'line': b'-- Up-to-date: /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml\n'}
+[4.672110] (bumperbot_planning) CommandEnded: {'returncode': 0}
+[4.686920] (bumperbot_planning) JobEnded: {'identifier': 'bumperbot_planning', 'rc': 0}
+[4.687306] (-) EventReactorShutdown: {}

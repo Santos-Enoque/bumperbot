@@ -29,6 +29,11 @@ namespace bumperbot_planning
         RCLCPP_INFO(node_->get_logger(), "Activating planner: %s", name_.c_str());
     }
 
+    void DijkstraPlanner::deactivate()
+    {
+        RCLCPP_INFO(node_->get_logger(), "Deactivating planner: %s", name_.c_str());
+    }
+
     nav_msgs::msg::Path DijkstraPlanner::createPlan(
         const geometry_msgs::msg::PoseStamped &start,
         const geometry_msgs::msg::PoseStamped &goal,

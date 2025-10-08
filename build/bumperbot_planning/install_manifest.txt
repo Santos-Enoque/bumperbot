@@ -8,14 +8,15 @@
 /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py
 /bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
-/bumperbot_ws/install/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp
-/bumperbot_ws/install/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp
-/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/libdijkstra_planner.so
-/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner
 /bumperbot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so
+/bumperbot_ws/install/bumperbot_planning/lib/liba_star_planner.so
+/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
 /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
 /bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
 /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
 /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
@@ -30,6 +31,7 @@
 /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
 /bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
 /bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
