@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.001461] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.001512] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.001527] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.001540] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.001554] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.001566] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.001578] (-) JobUnselected: {'identifier': 'bumperbot_motion'}
+[0.001588] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.001597] (-) JobUnselected: {'identifier': 'bumperbot_navigation'}
+[0.001610] (bumperbot_planning) JobQueued: {'identifier': 'bumperbot_planning', 'dependencies': OrderedDict()}
+[0.001625] (bumperbot_planning) JobStarted: {'identifier': 'bumperbot_planning'}
+[0.008233] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'cmake'}
+[0.008568] (bumperbot_planning) JobProgress: {'identifier': 'bumperbot_planning', 'progress': 'build'}
+[0.008952] (bumperbot_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/bumperbot_ws/build/bumperbot_planning', '--', '-j16', '-l16'], 'cwd': '/bumperbot_ws/build/bumperbot_planning', 'env': OrderedDict({'VSCODE_CWD': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'dummy-XP-Z590', 'DEBUG': '1', 'SHLVL': '1', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-935b37b9-48e6-4116-9037-b134a9cbca6e.sock', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': '1', 'REMOTE_CONTAINERS': 'true', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'PROJECT_NAME': 'bumperbot_ws', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/run/user//pulse/native', '_': '/usr/bin/colcon', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'C.UTF-8', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-ed4cd041-9edd-42b4-b2d0-42912fefa7c9.sock', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDECODE': '1', 'PWD': '/bumperbot_ws/build/bumperbot_planning', 'LC_ALL': 'C.UTF-8', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}), 'shell': False}
+[0.026076] (bumperbot_planning) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099950] (-) TimerEvent: {}
+[0.124081] (bumperbot_planning) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.124257] (bumperbot_planning) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.124312] (bumperbot_planning) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.124355] (bumperbot_planning) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.126819] (bumperbot_planning) StderrLine: {'line': b'CMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.126982] (bumperbot_planning) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.127035] (bumperbot_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.127076] (bumperbot_planning) StderrLine: {'line': b'  /bumperbot_ws/build/bumperbot_planning/ament_cmake_package_templates/templates.cmake)\n'}
+[0.127117] (bumperbot_planning) StderrLine: {'line': b'  returned error code 1\n'}
+[0.127156] (bumperbot_planning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.127202] (bumperbot_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.127248] (bumperbot_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.127287] (bumperbot_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.127326] (bumperbot_planning) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[0.127365] (bumperbot_planning) StderrLine: {'line': b'\n'}
+[0.127403] (bumperbot_planning) StderrLine: {'line': b'\n'}
+[0.127441] (bumperbot_planning) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.128513] (bumperbot_planning) StderrLine: {'line': b'gmake: *** [Makefile:336: cmake_check_build_system] Error 1\n'}
+[0.133386] (bumperbot_planning) CommandEnded: {'returncode': 2}
+[0.142764] (bumperbot_planning) JobEnded: {'identifier': 'bumperbot_planning', 'rc': 2}
+[0.143355] (-) EventReactorShutdown: {}

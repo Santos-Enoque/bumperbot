@@ -1,0 +1,73 @@
+[0.006s] Invoking command in '/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.024s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.151s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.168s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.228s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.229s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.274s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.300s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.320s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.331s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.343s] -- Found bumperbot_msgs: 0.0.0 (/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[0.368s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.370s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.396s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.474s] -- Configuring done (0.5s)
+[0.509s] -- Generating done (0.0s)
+[0.522s] -- Build files have been written to: /bumperbot_ws/build/bumperbot_cpp_examples
+[0.566s] [  7%] Built target simple_action_server
+[0.566s] [ 14%] Built target simple_service_server
+[0.567s] [ 28%] Built target simple_service_client
+[0.567s] [ 28%] Built target simple_qos_subscriber
+[0.567s] [ 35%] Built target simple_qos_publisher
+[0.567s] [ 42%] Built target simple_tf_kinematics
+[0.567s] [ 50%] Built target simple_subscriber
+[0.567s] [ 57%] Built target simple_lifecycle_node
+[0.568s] [ 64%] Built target simple_action_server_node
+[0.568s] [ 75%] Built target simple_parameter
+[0.568s] [ 78%] Built target simple_publisher
+[0.569s] [ 85%] Built target simple_action_client
+[0.569s] [ 92%] Built target simple_action_client_node
+[0.570s] [100%] Built target simple_turtlesim_kinematics
+[0.577s] Invoked command in '/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.578s] Invoking command in '/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_cpp_examples
+[0.584s] -- Install configuration: ""
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_server_node
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_client_node
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.584s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_server.so
+[0.585s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_client.so
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.586s] -- Installing: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/rclcpp_components/bumperbot_cpp_examples
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.586s] -- Up-to-date: /bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.587s] Invoked command in '/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bumperbot_ws/build/bumperbot_cpp_examples

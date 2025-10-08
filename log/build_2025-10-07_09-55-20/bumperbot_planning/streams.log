@@ -1,0 +1,71 @@
+[0.041s] Invoking command in '/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.254s] [  0%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.259s] [ 50%] Built target a_star_planner
+[0.259s] [ 75%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.436s] running egg_info
+[0.455s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.455s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.456s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[0.520s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.528s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.596s] [ 75%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[3.406s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvirtual void bumperbot_planning::DijkstraPlanner::[01;32m[Kconfigure[m[K(const rclcpp_lifecycle::LifecycleNode::WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[3.406s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:11:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.406s]    11 |             [01;35m[Kconst rclcpp_lifecycle::LifecycleNode::WeakPtr &parent[m[K,
+[3.406s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.406s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:12:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.406s]    12 |             [01;35m[Kstd::string name[m[K, std::shared_ptr<tf2_ros::Buffer> tf,
+[3.406s]       |             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.407s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:12:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.407s]    12 |             std::string name, [01;35m[Kstd::shared_ptr<tf2_ros::Buffer> tf[m[K,
+[3.407s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.407s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:13:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcostmap_ros[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.407s]    13 |             [01;35m[Kstd::shared_ptr<nav2_costmap_2d::Costmap2DROS> costmap_ros[m[K
+[3.407s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.407s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K At global scope:
+[3.407s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:18:25:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Knav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::[01;32m[Kplan[m[K(const geometry_msgs::msg::Pose&, const geometry_msgs::msg::Pose&)[m[K’
+[3.407s]    18 |     nav_msgs::msg::Path [01;31m[KDijkstraPlanner[m[K::plan(const geometry_msgs::msg::Pose &start, const geometry_msgs::msg::Pose &goal)
+[3.407s]       |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.407s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:18:25:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Knav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::[01;32m[Kplan[m[K(const geometry_msgs::msg::Pose&, const geometry_msgs::msg::Pose&)[m[K’
+[3.407s] In file included from [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:4[m[K:
+[3.407s] [01m[K/bumperbot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:46:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass bumperbot_planning::DijkstraPlanner[m[K’ defined here
+[3.407s]    46 |     class [01;36m[KDijkstraPlanner[m[K : public nav2_core::GlobalPlanner
+[3.407s]       |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.412s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kbool bumperbot_planning::DijkstraPlanner::[01;32m[KposeOnMap[m[K(const bumperbot_planning::GraphNode&)[m[K’:
+[3.412s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:77:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[3.412s]    77 |         return node.x < static_cast<int>([01;31m[Kmap_[m[K->info.width) && node.x >= 0 &&
+[3.412s]       |                                          [01;31m[K^~~~[m[K
+[3.418s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kbumperbot_planning::GraphNode bumperbot_planning::DijkstraPlanner::[01;32m[KworldToGrid[m[K(const geometry_msgs::msg::Pose&)[m[K’:
+[3.418s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:83:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[3.418s]    83 |         int grid_x = static_cast<int>((pose.position.x - [01;31m[Kmap_[m[K->info.origin.position.x) / map_->info.resolution);
+[3.418s]       |                                                          [01;31m[K^~~~[m[K
+[3.424s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Pose bumperbot_planning::DijkstraPlanner::[01;32m[KgridToWorld[m[K(const bumperbot_planning::GraphNode&)[m[K’:
+[3.424s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:91:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[3.424s]    91 |         pose.position.x = node.x * [01;31m[Kmap_[m[K->info.resolution + map_->info.origin.position.x;
+[3.424s]       |                                    [01;31m[K^~~~[m[K
+[3.429s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kunsigned int bumperbot_planning::DijkstraPlanner::[01;32m[KposeToCell[m[K(const bumperbot_planning::GraphNode&)[m[K’:
+[3.429s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:98:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[3.429s]    98 |         return [01;31m[Kmap_[m[K->info.width * node.y + node.x;
+[3.429s]       |                [01;31m[K^~~~[m[K
+[3.431s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.431s] [01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:106:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<bumperbot_planning::DijkstraPlanner>&)[m[K’
+[3.431s]   106 |     [01;31m[Krclcpp::spin(node)[m[K;
+[3.431s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~[m[K
+[3.431s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.431s]                  from [01m[K/bumperbot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:6[m[K:
+[3.431s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[3.431s]    58 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[3.431s]       | [01;36m[K^~~~[m[K
+[3.431s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kbumperbot_planning::DijkstraPlanner[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[3.431s]    58 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[3.431s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.431s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(Node::SharedPtr)[m[K’
+[3.432s]    62 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[3.432s]       | [01;36m[K^~~~[m[K
+[3.432s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kbumperbot_planning::DijkstraPlanner[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[3.432s]    62 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[3.432s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.761s] gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+[4.761s] gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/dijkstra_planner.dir/all] Error 2
+[4.762s] gmake: *** [Makefile:146: all] Error 2
+[4.763s] Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16

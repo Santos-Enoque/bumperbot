@@ -1,0 +1,5 @@
+<class_libraries>
+    <Library>
+        <class type="bumperbot_planning::DijkstraPlanner" base_class_type="nav2_core::GlobalPlanner"></class>
+    </Library>
+</class_libraries>

@@ -1,0 +1,2 @@
+Invoking command in '/bumperbot_ws/build/bumperbot_planning': /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+Invoked command in '/bumperbot_ws/build/bumperbot_planning' returned '2': /usr/bin/cmake --build /bumperbot_ws/build/bumperbot_planning -- -j16 -l16

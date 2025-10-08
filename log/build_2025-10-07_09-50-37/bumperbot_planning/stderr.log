@@ -1,0 +1,60 @@
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: In member function ‘virtual void bumperbot_planning::DijkstraPlanner::configure(const rclcpp_lifecycle::LifecycleNode::WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)’:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:11:61: warning: unused parameter ‘parent’ [-Wunused-parameter]
+   11 |             const rclcpp_lifecycle::LifecycleNode::WeakPtr &parent,
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:12:25: warning: unused parameter ‘name’ [-Wunused-parameter]
+   12 |             std::string name, std::shared_ptr<tf2_ros::Buffer> tf,
+      |             ~~~~~~~~~~~~^~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:12:64: warning: unused parameter ‘tf’ [-Wunused-parameter]
+   12 |             std::string name, std::shared_ptr<tf2_ros::Buffer> tf,
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:13:60: warning: unused parameter ‘costmap_ros’ [-Wunused-parameter]
+   13 |             std::shared_ptr<nav2_costmap_2d::Costmap2DROS> costmap_ros
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: At global scope:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:18:25: error: no declaration matches ‘nav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::plan(const geometry_msgs::msg::Pose&, const geometry_msgs::msg::Pose&)’
+   18 |     nav_msgs::msg::Path DijkstraPlanner::plan(const geometry_msgs::msg::Pose &start, const geometry_msgs::msg::Pose &goal)
+      |                         ^~~~~~~~~~~~~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:18:25: note: no functions named ‘nav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::plan(const geometry_msgs::msg::Pose&, const geometry_msgs::msg::Pose&)’
+In file included from /bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:4:
+/bumperbot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:46:11: note: ‘class bumperbot_planning::DijkstraPlanner’ defined here
+   46 |     class DijkstraPlanner : public nav2_core::GlobalPlanner
+      |           ^~~~~~~~~~~~~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: In member function ‘bool bumperbot_planning::DijkstraPlanner::poseOnMap(const bumperbot_planning::GraphNode&)’:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:77:42: error: ‘map_’ was not declared in this scope
+   77 |         return node.x < static_cast<int>(map_->info.width) && node.x >= 0 &&
+      |                                          ^~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: In member function ‘bumperbot_planning::GraphNode bumperbot_planning::DijkstraPlanner::worldToGrid(const geometry_msgs::msg::Pose&)’:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:83:58: error: ‘map_’ was not declared in this scope
+   83 |         int grid_x = static_cast<int>((pose.position.x - map_->info.origin.position.x) / map_->info.resolution);
+      |                                                          ^~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: In member function ‘geometry_msgs::msg::Pose bumperbot_planning::DijkstraPlanner::gridToWorld(const bumperbot_planning::GraphNode&)’:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:91:36: error: ‘map_’ was not declared in this scope
+   91 |         pose.position.x = node.x * map_->info.resolution + map_->info.origin.position.x;
+      |                                    ^~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: In member function ‘unsigned int bumperbot_planning::DijkstraPlanner::poseToCell(const bumperbot_planning::GraphNode&)’:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:98:16: error: ‘map_’ was not declared in this scope
+   98 |         return map_->info.width * node.y + node.x;
+      |                ^~~~
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp: In function ‘int main(int, char**)’:
+/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:106:17: error: no matching function for call to ‘spin(std::shared_ptr<bumperbot_planning::DijkstraPlanner>&)’
+  106 |     rclcpp::spin(node);
+      |     ~~~~~~~~~~~~^~~~~~
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172,
+                 from /bumperbot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:6:
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:1: note: candidate: ‘void rclcpp::spin(node_interfaces::NodeBaseInterface::SharedPtr)’
+   58 | spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | ^~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:60: note:   no known conversion for argument 1 from ‘shared_ptr<bumperbot_planning::DijkstraPlanner>’ to ‘shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>’
+   58 | spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:1: note: candidate: ‘void rclcpp::spin(Node::SharedPtr)’
+   62 | spin(rclcpp::Node::SharedPtr node_ptr);
+      | ^~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:30: note:   no known conversion for argument 1 from ‘shared_ptr<bumperbot_planning::DijkstraPlanner>’ to ‘shared_ptr<rclcpp::Node>’
+   62 | spin(rclcpp::Node::SharedPtr node_ptr);
+      |      ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/dijkstra_planner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
