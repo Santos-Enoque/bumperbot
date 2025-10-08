@@ -3,9 +3,11 @@ planner_server:
     use_sim_time: true
     # Add other parameters here
     expected_planner_frequency: 1.0
-    planner_plugins: ["GridBased"]
+    planner_plugins: ["GridBased", "GridBasedFast"]
     GridBased:
       plugin: "bumperbot_planning::DijkstraPlanner"
+    GridBasedFast:
+      plugin: "bumperbot_planning::AStarPlanner"
 
 global_costmap:
   global_costmap:

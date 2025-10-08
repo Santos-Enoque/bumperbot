@@ -24,7 +24,7 @@ RUN sudo apt update && \
     ros-jazzy-controller-manager ros-jazzy-ros2-control ros-jazzy-ros2-controllers \
     ros-jazzy-twist-mux ros-jazzy-joy ros-jazzy-joy-teleop \
     # Navigation (Nav2)
-    ros-jazzy-nav2-amcl ros-jazzy-nav2-map-server ros-jazzy-nav2-lifecycle-manager ros-jazzy-nav2-planner ros-jazzy-nav2-core ros-jazzy-nav2-navfn-planner ros-jazzy-nav2-costmap-2d ros-jazzy-nav2-util \
+    ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-nav2-*
     # Localization & Mapping
     ros-jazzy-robot-localization ros-jazzy-slam-toolbox \
     # Description & Visualization

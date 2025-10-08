@@ -1,0 +1,87 @@
+[0.013s] Invoking command in '/bumperbot_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/bumperbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/bumperbot_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /bumperbot_ws/src/navigation2/nav2_voxel_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/nav2_voxel_grid
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.081s] -- The CXX compiler identification is GNU 13.3.0
+[0.091s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.233s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.326s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.376s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.416s] -- Found nav2_common: 1.1.19 (/bumperbot_ws/install/nav2_common/share/nav2_common/cmake)
+[0.419s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.458s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_zenoh_cpp: 0.2.7 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[0.584s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[0.642s] -- Setting build type to Release as none was specified.
+[0.646s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.737s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.802s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.802s] -- Found Threads: TRUE  
+[0.808s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.808s] -- Configured cppcheck include dirs: /bumperbot_ws/src/navigation2/nav2_voxel_grid/include
+[0.808s] -- Configured cppcheck exclude dirs and/or files: 
+[0.809s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.809s] -- Configured cpplint exclude dirs and/or files: 
+[0.809s] -- Added test 'lint_cmake' to check CMake code style
+[0.810s] -- Added test 'uncrustify' to check C / C++ code style
+[0.810s] -- Configured uncrustify additional arguments: 
+[0.811s] -- Added test 'xmllint' to check XML markup files
+[0.813s] -- Configuring done (0.8s)
+[0.825s] -- Generating done (0.0s)
+[0.829s] -- Build files have been written to: /bumperbot_ws/build/nav2_voxel_grid
+[0.834s] Invoked command in '/bumperbot_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/bumperbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/bumperbot_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /bumperbot_ws/src/navigation2/nav2_voxel_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/bumperbot_ws/install/nav2_voxel_grid
+[0.835s] Invoking command in '/bumperbot_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/bumperbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/bumperbot_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bumperbot_ws/build/nav2_voxel_grid -- -j16 -l16
+[0.869s] [ 30%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.870s] [ 30%] Building CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o
+[0.870s] [ 30%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[1.488s] [ 40%] Linking CXX static library libgtest_main.a
+[1.512s] [ 40%] Built target gtest_main
+[3.618s] [ 50%] Linking CXX shared library libvoxel_grid.so
+[3.685s] [ 50%] Built target voxel_grid
+[7.511s] [ 60%] Linking CXX static library libgtest.a
+[7.536s] [ 60%] Built target gtest
+[7.550s] [ 80%] Building CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o
+[7.551s] [ 80%] Building CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o
+[10.770s] [ 90%] Linking CXX executable voxel_grid_bresenham_3d
+[10.777s] [100%] Linking CXX executable voxel_grid_tests
+[10.861s] [100%] Built target voxel_grid_bresenham_3d
+[10.869s] [100%] Built target voxel_grid_tests
+[10.876s] Invoked command in '/bumperbot_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/bumperbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/bumperbot_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /bumperbot_ws/build/nav2_voxel_grid -- -j16 -l16
+[10.877s] Invoking command in '/bumperbot_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/bumperbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/bumperbot_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bumperbot_ws/build/nav2_voxel_grid
+[10.882s] -- Install configuration: "Release"
+[10.882s] -- Execute custom install script
+[10.882s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[10.889s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[10.895s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[10.901s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[10.906s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[10.912s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[10.918s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[10.924s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[10.930s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[10.936s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[10.942s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[10.949s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[10.955s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[10.960s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[10.966s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[10.972s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[10.979s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.987s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.994s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[11.001s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[11.008s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[11.015s] -- Symlinking: /bumperbot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[11.023s] Invoked command in '/bumperbot_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/bumperbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/bumperbot_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/bumperbot_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /bumperbot_ws/build/nav2_voxel_grid

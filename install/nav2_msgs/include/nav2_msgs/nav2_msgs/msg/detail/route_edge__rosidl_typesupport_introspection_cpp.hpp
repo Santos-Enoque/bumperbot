@@ -1,0 +1,1 @@
+/bumperbot_ws/build/nav2_msgs/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/route_edge__rosidl_typesupport_introspection_cpp.hpp
