@@ -46,6 +46,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_navigation" TYPE DIRECTORY FILES
     "/bumperbot_ws/src/bumperbot_navigation/config"
     "/bumperbot_ws/src/bumperbot_navigation/launch"
+    "/bumperbot_ws/src/bumperbot_navigation/behavior_tree"
     )
 endif()
 

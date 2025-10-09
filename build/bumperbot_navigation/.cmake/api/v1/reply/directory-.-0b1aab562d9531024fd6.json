@@ -230,7 +230,8 @@
 			"paths" : 
 			[
 				"config",
-				"launch"
+				"launch",
+				"behavior_tree"
 			],
 			"type" : "directory"
 		},
