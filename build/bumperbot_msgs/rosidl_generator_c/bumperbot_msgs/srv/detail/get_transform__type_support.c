@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "bumperbot_msgs/srv/detail/get_transform__functions.h"
-#include "bumperbot_msgs/srv/detail/get_transform__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "bumperbot_msgs/srv/detail/get_transform__struct.h"
+#include "bumperbot_msgs/srv/detail/get_transform__functions.h"
+#include "bumperbot_msgs/srv/detail/get_transform__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

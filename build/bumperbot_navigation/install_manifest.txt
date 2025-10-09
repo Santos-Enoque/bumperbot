@@ -1,3 +1,8 @@
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/planner_server.yaml
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/costmap.yaml
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/controller_server.yaml
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/smoother_server.yaml
+/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/launch/navigation.launch.py
 /bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/package_run_dependencies/bumperbot_navigation
 /bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/parent_prefix_path/bumperbot_navigation
 /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.sh

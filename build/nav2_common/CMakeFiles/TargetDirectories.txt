@@ -1,9 +1,0 @@
-/bumperbot_ws/build/nav2_common/CMakeFiles/uninstall.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/nav2_common_uninstall.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/ament_cmake_python_symlink_nav2_common.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/ament_cmake_python_build_nav2_common_egg.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/edit_cache.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/rebuild_cache.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/list_install_components.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/install.dir
-/bumperbot_ws/build/nav2_common/CMakeFiles/install/local.dir

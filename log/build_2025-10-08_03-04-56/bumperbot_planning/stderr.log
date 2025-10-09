@@ -1,4 +1,0 @@
-[01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::[01;32m[KcreatePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, std::function<bool()>)[m[K’:
-[01m[K/bumperbot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:63:136:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
-   63 |                     poseOnMap(new_node) && costmap_->getCost(new_node.x, new_node.y) < 99 && [01;35m[Kcostmap_->getCost(new_node.x, new_node.y) >= 0[m[K)
-      |                                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

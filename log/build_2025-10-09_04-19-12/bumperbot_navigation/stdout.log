@@ -1,0 +1,33 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /bumperbot_ws/build/bumperbot_navigation
+-- Install configuration: ""
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/planner_server.yaml
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/costmap.yaml
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/controller_server.yaml
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/smoother_server.yaml
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/launch
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/launch/navigation.launch.py
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/package_run_dependencies/bumperbot_navigation
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/parent_prefix_path/bumperbot_navigation
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.bash
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.sh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.zsh
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.dsv
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/packages/bumperbot_navigation
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig.cmake
+-- Up-to-date: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig-version.cmake
+-- Installing: /bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.xml

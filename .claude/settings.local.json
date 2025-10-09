@@ -3,7 +3,8 @@
     "allow": [
       "Bash(sudo apt-get:*)",
       "Bash(sudo apt-get install:*)",
-      "Bash(source:*)"
+      "Bash(source:*)",
+      "Bash(python3 -m flake8:*)"
     ],
     "deny": [],
     "ask": []

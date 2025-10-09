@@ -1,6 +1,0 @@
-/bumperbot_ws/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Path2D.idl
-/bumperbot_ws/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Pose2D32.idl
-/bumperbot_ws/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Pose2DStamped.idl
-/bumperbot_ws/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Twist2D.idl
-/bumperbot_ws/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Twist2D32.idl
-/bumperbot_ws/build/nav_2d_msgs/rosidl_adapter/nav_2d_msgs:msg/Twist2DStamped.idl

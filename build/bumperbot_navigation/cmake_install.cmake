@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_navigation" TYPE DIRECTORY FILES
+    "/bumperbot_ws/src/bumperbot_navigation/config"
+    "/bumperbot_ws/src/bumperbot_navigation/launch"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/bumperbot_ws/build/bumperbot_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_navigation")
 endif()
 
